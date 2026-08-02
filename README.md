@@ -11,20 +11,18 @@ Once Done or Satisifed : Remove this TODO
 ---
 
 start chrome "https://github.com/nishantunderstand/JobDecode"
-git pull; git add .; git commit -m "Life is like a sine wave"; git push; git status;
+
+git pull; git add .; git commit -m "New Hope | New Begining"; git push; git status;
 
 ---
-git pull; git add .; git commit -m "Up & Down Part of life"; git push; git status; start chrome "https://github.com/nishantunderstand/JobDecode"
+
 git pull; git add .; git commit -m "Up & Down Part of life"; git push; git status;
+
 ---
 
 code (New-Item -ItemType File -Name "TODO-Java-.md").FullName
-code (New-Item -ItemType File -Name "TODO-Java-MemoryModel.md").FullName
+code (New-Item -ItemType File -Name "TODO-Java-Testing.md").FullName
 
 
 code (New-Item -ItemType File -Name "TODO-Spring-.md").FullName
-code (New-Item -ItemType File -Name "TODO-Spring-Batch.md").FullName
-
-
---- 
-Judge Me
+code (New-Item -ItemType File -Name "TODO-SQL-Prashant.md").FullName
