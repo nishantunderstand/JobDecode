@@ -11,6 +11,8 @@ Pillar :
 
 Inheritance 
 extends
+implements
+IS-A
 Parent Child Relationship		 
 
 Types
@@ -20,8 +22,16 @@ Types
 4. Multiple 
 5. Hybrid
 
----
 Can Inheritance can be co-related with Other Pillar ? Ask ChatGPT 
+
+
+
+Inherirance Class Relationship
+
+Association
+1. Aggregation
+2. Composition
+
 
 ---
 
@@ -49,11 +59,54 @@ Java-8
 3. Private Static Method ❓❓
 
 
-Any Topic I missed here ?
+Java-17+
 
-Sealed Method 
 Sealed Interface 
+Sealed Class
 
-Should I write here  ??
 
 ---
+
+Polymorphism 
+
+1. Static / Compile  : Method Overloading ,Method Hiding , Constructor Overloading
+2. RumTime / Runtime  : Method Overiding , Dynamic Method Dispactch
+
+Polymorphism + Inheritance : Dynamic Method Dispactch
+
+
+Method Overloading
+Method Overiding
+Method Overloading vs Method Overiding
+Constructor Overloading
+Constructor Overiding : Doesn't Exist
+Dynamic Method Dispactch
+Dynamic Method Dispactch vs Method Overiding
+
+
+Method Overiding/ Overiding + Exception + ReturnType (i.e. Covariant Return Type)
+
+
+Covariant Return Type
+
+Access Modifier Rules
+Exception Rules
+@Override
+
+---
+Encapsulation
+
+accessor 
+mutator
+getter setter
+
+private 
+
+
+lombok
+record class
+
+Access Modifier (Scope)
+
+Encapsulation vs Data Hiding
+Immutable Class
