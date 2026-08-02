@@ -37,9 +37,29 @@ Child Exception Followed by Parent Exception
 
 Checked Exception Example 
 
-public class AgeNotFound {
-  public void ageNotFoundException extends Exception(String msg){
+public class AgeNotFound extends Exception{
+  
+  public AgeNotFound(String msg){
     super(msg);
   }
 }
 
+RunTime Exception
+public class AgeNotFound extends RuntimeException{
+  public AgeNotFound(String msg){
+    super(msg);
+  }
+}
+
+
+
+Method Overriding with Exception
+
+
+Chained Exception
+Exception Propagation
+
+
+Exception with SpringBoot
+
+ExceptionHandler

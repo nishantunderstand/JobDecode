@@ -24,3 +24,7 @@ code (New-Item -ItemType File -Name "TODO-Java-MemoryModel.md").FullName
 
 code (New-Item -ItemType File -Name "TODO-Spring-.md").FullName
 code (New-Item -ItemType File -Name "TODO-Spring-Batch.md").FullName
+
+
+--- 
+Judge Me

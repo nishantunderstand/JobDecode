@@ -165,9 +165,6 @@
 
 
 
-
-
-
 ## 5. Thread Problems
 - Race Condition
 - Deadlock
@@ -222,8 +219,6 @@
 
 
 
-
-
 ## 7. Java Concurrency Framework
 - ConcurrentHashMap
 - CopyOnWriteArrayList
@@ -270,8 +265,6 @@
 
 
 
-
-
 ├── 8. Synchronization
 │   ├── synchronized Method
 │   ├── synchronized Block
@@ -305,16 +298,12 @@
 │
 
 
-
-
 ├── 11. Synchronizers
 │   ├── Semaphore
 │   │   └── Permit Based Control
 │   ├── CountDownLatch
 │   ├── CyclicBarrier
 │   └── Phaser
-
-
 
 │
 ├── 12. Blocking Queues
@@ -333,7 +322,6 @@
 │   └── Thread Pool Sizing
 │       ├── CPU Bound
 │       └── IO Bound
-
 
 
 ├── 15. Fork/Join Framework

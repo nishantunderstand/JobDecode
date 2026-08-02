@@ -39,3 +39,11 @@ Role vs Permission
 Authentication vs Authorization 
 Bearer Token
 
+
+
+
+CSRF 
+
+
+Stateful and Stateless
+
