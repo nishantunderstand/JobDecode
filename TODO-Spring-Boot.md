@@ -1,8 +1,8 @@
 SpringBoot 
 
 Spring vs SpringBoot
-
 Working Of SpringBoot Anotation 
+
 @SpringBootApplication
 @Configuration => @SpringBootConfiguraion 
 @ComponentScan
@@ -24,5 +24,4 @@ Jar vs War
 BeanScope
 Configuration
 Profile
-
 Excluding Auto Configuration
