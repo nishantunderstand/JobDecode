@@ -5,28 +5,24 @@ MVC
 Model View Controller 
 Model Means Entity Class
 
-
 MVC Design Pattern 
 
-MVC Architecture   @@
+MVC Architecture   
 Request
 DispatcherServlet 
 Method + Performe the Action
 ViewResolver 
-view Name
-
-But Nowaday we don't use it anymore
+View Name
 
 
 Java + React
 
-
-SpringMVC Annotation
-
 SterotypeAnnotation
 @ResponseBody
 @ResponseStatus
+@ResponseEntity
 
+Request Mapping
 @GetMapping
 @PostMapping 
 @PutMapping 
@@ -34,6 +30,33 @@ SterotypeAnnotation
 @DeleteMapping
 
 
+Request Data Binding 
+@PathVariable
+@RequestParam
+@RequestBody
+@RequestHeader
 
+Exception Handling
+@ExceptionHandler
+@ControllerAdvice
+@RestControllerAdvice
 
+Validation 
+@Valid
+@Validated
+@NotNull vs @NotBlank
+@Size
+@Max
+@Min
 
+Interceptors
+preHandle()
+postHandle()
+afterCompletion()
+
+FileUpload
+MultipartFile
+
+MVC vs Rest
+
+Controller vs RestController
