@@ -1,14 +1,3 @@
-OOPs 
-
-Pillar :
-1. Inheritance
-2. Polymorphism
-3. Abstraction
-4. Encapsulation
-
-
----
-
 Inheritance 
 extends
 implements
@@ -25,7 +14,6 @@ Types
 Can Inheritance can be co-related with Other Pillar ? Ask ChatGPT 
 
 
-
 Inherirance Class Relationship
 
 Association
@@ -35,23 +23,6 @@ Association
 
 
 ---
-
-Polymorphism 
-1. Static / Compile  : Method Overloading ,Method Hiding , Constructor Overloading
-2. RumTime / Runtime  : Method Overiding , Dynamic Method Dispactch
-Polymorphism + Inheritance : Dynamic Method Dispactch
-Method Overloading
-Method Overiding
-Method Overloading vs Method Overiding
-Constructor Overloading
-Constructor Overiding : Doesn't Exist
-Dynamic Method Dispactch
-Dynamic Method Dispactch vs Method Overiding
-Method Overiding/ Overiding + Exception + ReturnType (i.e. Covariant Return Type)
-Covariant Return Type
-Access Modifier Rules
-Exception Rules
-@Override
 
 ---
 Encapsulation
