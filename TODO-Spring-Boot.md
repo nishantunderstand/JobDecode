@@ -1,9 +1,9 @@
 SpringBoot 
 
 Spring vs SpringBoot
-Working Of SpringBoot Anotation 
+CoC (Convention Over Configuration)
 
-@SpringBootApplication
+Working of @SpringBootApplication Annotation
 @Configuration => @SpringBootConfiguraion 
 @ComponentScan
 @EnableAutoConfiguration
@@ -16,12 +16,13 @@ Presentation Layer : @Controller , @RestController
 Reposistory Layer : @Reposistory
 Service Layer : @Service 
 
+How to include and exclude Tomcat and Include Jetty 
 Emebedded Server 
 tomcat -> jetty
 
 Jar vs War
-
 BeanScope
 Configuration
-Profile
+SpringProfile 
 Excluding Auto Configuration
+@Value vs @ConfigurationProperties
