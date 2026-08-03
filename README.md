@@ -11,7 +11,6 @@ Once Done or Satisifed : Remove this TODO
 ---
 
 start chrome "https://github.com/nishantunderstand/JobDecode"
-
 git pull; git add .; git commit -m "New Hope | New Begining"; git push; git status;
 
 ---
@@ -25,4 +24,8 @@ code (New-Item -ItemType File -Name "TODO-Java-Testing.md").FullName
 
 
 code (New-Item -ItemType File -Name "TODO-Spring-.md").FullName
+
 code (New-Item -ItemType File -Name "TODO-SQL-Prashant.md").FullName
+
+
+code (New-Item -ItemType File -Name "TODO-Git.md").FullName

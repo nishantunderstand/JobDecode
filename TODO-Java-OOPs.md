@@ -37,13 +37,9 @@ Association
 ---
 
 Polymorphism 
-
 1. Static / Compile  : Method Overloading ,Method Hiding , Constructor Overloading
 2. RumTime / Runtime  : Method Overiding , Dynamic Method Dispactch
-
 Polymorphism + Inheritance : Dynamic Method Dispactch
-
-
 Method Overloading
 Method Overiding
 Method Overloading vs Method Overiding
@@ -51,13 +47,8 @@ Constructor Overloading
 Constructor Overiding : Doesn't Exist
 Dynamic Method Dispactch
 Dynamic Method Dispactch vs Method Overiding
-
-
 Method Overiding/ Overiding + Exception + ReturnType (i.e. Covariant Return Type)
-
-
 Covariant Return Type
-
 Access Modifier Rules
 Exception Rules
 @Override
@@ -71,7 +62,6 @@ getter setter
 
 private 
 
-
 lombok
 record class
 
@@ -79,27 +69,6 @@ Access Modifier (Scope)
 
 Encapsulation vs Data Hiding
 Immutable Class
-
-
----
-
-Abstraction
-Why we need Abstraction
-
-Ways to Achieve Abstraction
-1. Abstract Class 
-2. Interface
-
-Abstract Class 
-1. Abstract Method 
-2. Non-Abstract Method aka Concetree Method 
-
-Abstract vs Normal Class
-Abstract Method vs Method 
-Abstract vs Interface
-Abstract vs Final 
-Abstraction vs Encapsulation 
-Detail Hiding  vs Data Hiding
 
 
 ---

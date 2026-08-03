@@ -1,24 +1,28 @@
 SpringBoot 
 
+Spring vs SpringBoot
+
 Working Of SpringBoot Anotation 
 @SpringBootApplication
-
-@Configuration => @SpringBootConfiguraion
+@Configuration => @SpringBootConfiguraion 
 @ComponentScan
+@EnableAutoConfiguration
 
-Spring vs SpringBoot
 SpringBootStarterWeb
-
 Acutator 
 
-
-Sterotype Annotation
-
-@Component
+Sterotype Annotation : @Component
 Presentation Layer : @Controller , @RestController 
 Reposistory Layer : @Reposistory
 Service Layer : @Service 
 
+Emebedded Server 
+tomcat -> jetty
 
+Jar vs War
 
+BeanScope
+Configuration
+Profile
 
+Excluding Auto Configuration

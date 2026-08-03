@@ -1,5 +1,4 @@
-To Crack Infosys Interview 
-What Do i need to study ?
+To Crack Infosys Interview , What Do i need to study ?
 
 OOPS
 JCF + HashMap
