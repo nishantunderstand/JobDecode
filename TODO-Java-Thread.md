@@ -1,6 +1,5 @@
 # Thread
 
-
 ├── 1. Thread Fundamentals
 │   ├── What is a Thread?
 │   ├── Process vs Thread
@@ -26,6 +25,8 @@
 │       ├── notify()
 │       └── notifyAll()
 
+
+Do we have any constructor based on callable ? Why Not ?
 
 
 

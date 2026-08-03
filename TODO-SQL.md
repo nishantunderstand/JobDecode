@@ -23,16 +23,40 @@ Primary vs Foreign
 Is Foreign Key Always a Primary Key of another Table ?
 
 ---
+
+
+
 Joins
-Inner Join
-Equi Join
-Non-Equi Join
-Outer Join
-Left Outer Join
-Right Outer Join
-Full Outer Join
-Cross Join
-Self Join
+
+1. Inner Join
+   1. Equi Join
+   2. Non-Equi Join
+2. Outer Join
+   1. Left Outer Join (Left Join)
+   2. Right Outer Join (Right Join)
+   3. Full Outer Join
+3. Cross Join
+4. Self Join
+   1. Self Inner Join
+   2. Self Left Join
+   3. Self Right Join
+
+
+Rule of thumb for interviews
+INNER JOIN → "Only matching records."
+LEFT JOIN → "Keep all records from the left table."
+RIGHT JOIN → "Keep all records from the right table."
+FULL OUTER JOIN → "Keep all records from both tables."
+CROSS JOIN → "Generate every possible combination."
+SELF JOIN → "Relate rows within the same table, such as employee–manager or parent–child relationships."
+
+For interviews, one sentence works very well:
+INNER = Intersection
+LEFT = Left table is mandatory
+RIGHT = Right table is mandatory
+FULL = Both tables are mandatory
+CROSS = Every combination
+SELF = One table plays two roles (e.g., employee and manager)
 
 
 ---
@@ -114,3 +138,26 @@ use sql_pratice_2026;
 show tables;
 delete database test_db; // Invalid Command
 drop database test_db;
+
+
+---
+Joins Example 
+
+
+Employee and Department
+
+Employee : Left
+Department : Right
+
+Inner : Show Only employee that belongs to department
+
+Left  : Show All employee , If employee has department show it
+otherwise department columns are null
+
+Right : Show All department , If department has employee show it
+Otherwise employee columns are null
+
+Cross : Show all employee and all department
+Self :  Join employee with employee
+
+---
