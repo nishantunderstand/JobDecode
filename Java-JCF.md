@@ -1,54 +1,11 @@
-
-
-
----
-
-
 Queue Types
 
 
 ---
 
-Set 
-Distinct
-UnOrdered 
-Is Null Allowed ? Depends
 
 
-Set Types 
-1. HashSet (1 Null)
-2. LinkedHashSet   (1 Null )
-3. CopyOnWriteArraySet  (1 Null )
-4. TreeSet    (0 Null)
 
-Collections.synchronizedSet()
-
-HashSet vs LinkedHashSet vs TreeSet
-Read Heavy vs Write Heavy
-
-HashSet       -> Unordered       -> 1 Null
-LinkedHashSet -> Insertion Order -> 1 Null
-TreeSet       -> Sorted Order    -> 0 Null
-
-Comparable vs Comparator (TreeSet)
-Fail-Fast vs Fail-Safe 
-ConcurrentModification
-
-
-Internal Data Structure
-HashSet       -> HashMap
-LinkedHashSet -> LinkedHashMap
-TreeSet       -> TreeMap (Red-Black Tree)
-
-HashSet Internal Working
-hashCode()
-equals()
-Buckets
-Collision
-How HashSet Identifies Duplicates
-Why do duplicates still get inserted unless you override
-
-HashSet vs ArrayList
 
 ---
 Map Types
@@ -131,3 +88,7 @@ keySet()
 entrySet()
 
 How to make HashMap Thread Safe?
+
+
+
+---
