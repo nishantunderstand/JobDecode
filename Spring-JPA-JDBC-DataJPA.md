@@ -5,7 +5,6 @@ Hibernate Implemention
 Spring JDBC
 
 Spring JPA
-
 Spring DataJPA
 This is advanced version of Spring JPA 
 

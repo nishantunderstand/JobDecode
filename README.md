@@ -1,9 +1,5 @@
-code (New-Item -ItemType File -Name "Java-.md").FullName; exit
-
-code (New-Item -ItemType File -Name "Spring-.md").FullName; exit
-code (New-Item -ItemType File -Name "API-.md").FullName; exit
-code (New-Item -ItemType File -Name "AWS-Study.md").FullName; exit
-
+code (New-Item -ItemType File -Name "Java-Version-11.md").FullName; exit
+code (New-Item -ItemType File -Name "SQL-1.md").FullName; exit
 
 
 ---
