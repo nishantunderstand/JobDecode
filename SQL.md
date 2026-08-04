@@ -24,41 +24,6 @@ Is Foreign Key Always a Primary Key of another Table ?
 
 ---
 
-
-
-Joins
-
-1. Inner Join
-   1. Equi Join
-   2. Non-Equi Join
-2. Outer Join
-   1. Left Outer Join (Left Join)
-   2. Right Outer Join (Right Join)
-   3. Full Outer Join
-3. Cross Join
-4. Self Join
-   1. Self Inner Join
-   2. Self Left Join
-   3. Self Right Join
-
-
-Rule of thumb for interviews
-INNER JOIN → "Only matching records."
-LEFT JOIN → "Keep all records from the left table."
-RIGHT JOIN → "Keep all records from the right table."
-FULL OUTER JOIN → "Keep all records from both tables."
-CROSS JOIN → "Generate every possible combination."
-SELF JOIN → "Relate rows within the same table, such as employee–manager or parent–child relationships."
-
-For interviews, one sentence works very well:
-INNER = Intersection
-LEFT = Left table is mandatory
-RIGHT = Right table is mandatory
-FULL = Both tables are mandatory
-CROSS = Every combination
-SELF = One table plays two roles (e.g., employee and manager)
-
-
 ---
 Sorting ASC vs DESC
 DESCRIBE : DESC
@@ -141,9 +106,35 @@ drop database test_db;
 
 
 ---
+
+
+
+Joins
+
+1. Inner Join
+   1. Equi Join
+   2. Non-Equi Join
+2. Outer Join
+   1. Left Outer Join (Left Join)
+   2. Right Outer Join (Right Join)
+   3. Full Outer Join
+3. Cross Join
+4. Self Join
+   1. Self Inner Join
+   2. Self Left Join
+   3. Self Right Join
+
+
+Rule of thumb for interviews
+INNER JOIN → "Only matching records."
+LEFT JOIN → "Keep all records from the left table."
+RIGHT JOIN → "Keep all records from the right table."
+FULL OUTER JOIN → "Keep all records from both tables."
+CROSS JOIN → "Generate every possible combination."
+SELF JOIN → "Relate rows within the same table, such as employee–manager or parent–child relationships."
+
+
 Joins Example 
-
-
 Employee and Department
 
 Employee : Left
