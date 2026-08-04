@@ -1,3 +1,22 @@
+code (New-Item -ItemType File -Name "TODO-Java-.md").FullName
+code (New-Item -ItemType File -Name "TODO-Java-Class.md").FullName
+
+
+code (New-Item -ItemType File -Name "TODO-Spring-.md").FullName
+code (New-Item -ItemType File -Name "TODO-Git.md").FullName
+code (New-Item -ItemType File -Name "TODO-Microservice.md").FullName
+
+
+
+
+
+
+
+
+
+
+
+
 Sunday, August 2, 2026 12:02 PM
 
 I would recap here and Study here.
@@ -19,16 +38,3 @@ git pull; git add .; git commit -m "Up & Down Part of life"; git push; git statu
 
 ---
 
-code (New-Item -ItemType File -Name "TODO-Java-.md").FullName
-code (New-Item -ItemType File -Name "TODO-Java-Testing.md").FullName
-
-
-code (New-Item -ItemType File -Name "TODO-Spring-.md").FullName
-
-
-
-code (New-Item -ItemType File -Name "TODO-SQL-Prashant.md").FullName
-
-
-code (New-Item -ItemType File -Name "TODO-Git.md").FullName
-code (New-Item -ItemType File -Name "TODO-Microservice.md").FullName

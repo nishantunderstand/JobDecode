@@ -1,46 +1,25 @@
-Inheritance 
-extends
-implements
-IS-A
-Parent Child Relationship		 
-
-Types
-1. Single 
-2. MultiLevel
-3. Hierarchial ❓❓
-4. Multiple 
-5. Hybrid
-
-Can Inheritance can be co-related with Other Pillar ? Ask ChatGPT 
-
-
-Inherirance Class Relationship
-
-Association
-1. Aggregation
-2. Composition
-
-
-
----
-
----
 Encapsulation
 
 accessor 
 mutator
-getter setter
+getter
+setter
 
 private 
-
-lombok
-record class
-
 Access Modifier (Scope)
 
 Encapsulation vs Data Hiding
 Immutable Class
+Defensive Copy
 
+lombok
+Record Class (Java16+)
+
+How is Encapsulation Achieved?
+Why are Fields Usually Private?
+
+Record Class vs Immutable Class?
+Record vs POJO
 
 ---
 
