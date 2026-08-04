@@ -1,6 +1,8 @@
 code (New-Item -ItemType File -Name "TODO-Java-.md").FullName
 code (New-Item -ItemType File -Name "TODO-Java-Class.md").FullName
 
+(New-Item -ItemType File -Name "TODO-Java-Test.md").FullName; exit
+
 
 code (New-Item -ItemType File -Name "TODO-Spring-.md").FullName
 code (New-Item -ItemType File -Name "TODO-Git.md").FullName
