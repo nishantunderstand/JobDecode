@@ -1,3 +1,0 @@
-Queue Types
-
-Customized Order 
