@@ -8,15 +8,19 @@ JVM
 ClassLoader
 
 Runtime Area / JVM Memory
-1. Method Area
-2. Heap
-3. Java Stack
+A. Shared Memory (Shared By Each Thread)
+B. Thread Memeory (Each thread gets its own)
+
+1. Method Area (Shared) | MetaSpace | Class MetaData
+2. Heap (Shared)  | Object 
+3. Stack 
 4. PCRegister
 5. Native Method Stack
 
 Execution Engine 
 1. Interpreter
 2. Compiler
+3. Garbage Collector
 
 Native Method Interface
 Native Method Libraries
@@ -49,21 +53,25 @@ Class Loader Responsbility
    1. Static variables are assigned with values
    2. Executed from top to bottom
 
-
-
 ClassLoader Types
-1. BootStrap ClassLoader : JAVA_HOME/lib
-2. Extension ClassLoader : JAVA_HOME/lib/ext
-3. System/Application ClassLaoder :
+1. BootStrap ClassLoader : JAVA_HOME/lib : Load Core Java Classes
+2. Extension/Platform ClassLoader : JAVA_HOME/lib/ext
+3. System/Application ClassLaoder : (Your Project Classes, External library)
    1. Child of Extension Class Loader
    2. Load Class From applicaiton path
    3. Enviroment Variable mapped to java.class path
 
 ClassLoader Delegation-Hierarchy
-BootStrap ClassLoader
-Extension ClassLoader
 Application ClassLoader
+Platform ClassLoader
+BootStrap ClassLoader
 
+Why Parent Delegation?
+Security
+Prevent duplicate class loading
+Better performance through caching
+
+Can Parent Delegation Be Broken?
 
 ---
 
@@ -74,12 +82,10 @@ Heap Java7
 2. Old Generation
 3. Permanent Generation(PermGen)
 
-
 Heap Java8
 1. Young Generation  
 2. Old Generation
 3. MetaSpace
-
 
 Young Generation
 1. Eden
@@ -91,7 +97,6 @@ Promotion Threshold
 
 Every Object has a property called age counter.
 After a threshould i.e. 15 Move From Next Step
-
 
 Difference between Minor GC, Major GC and Full GC?
 
@@ -105,7 +110,6 @@ new : Heap -> Eden
 Garbage Collection 
 
 Stop the world Scenario
-
 
 GC Roots
 1. Local Variables
@@ -132,7 +136,6 @@ Rules of GC
 
 Does GC immediately delete an eligible object?
 
-
 What is Memory Leak ? How to identify it ?
 
 Types of Error
@@ -141,7 +144,7 @@ Types of Error
 
 Difference between OutOfMemoryError and StackOverflowError?
 
-finalize() Method (Missing)
+finalize() Method
 
 JVM TroubleShoooting 
 1. Heap Dump
@@ -161,3 +164,20 @@ Reference Types
 2. Weak Reference
 3. Soft Reference
 4. Phantom Reference
+
+JVM Tunning
+
+
+Class.forName("Student"); vs ClassLoader.loadClass("Student");
+
+
+During which phase are static variables assigned their actual values?
+
+---
+Study Later
+Tiered Compilation
+Modern Java now has 2Compiler
+C1, C2
+Code Cache
+How to run Java With Compile ? Java 11+
+Java Test.java 
