@@ -1,6 +1,5 @@
 API
 
-
 Architectural Style
 1. Stateful
 2. Stateless
