@@ -1,10 +1,10 @@
 JDK 
 JRE
 JVM
-
 JDK = JRE + JVM
 
-JVM 
+
+JVM Architecture :
 ClassLoader
 
 Runtime Area / JVM Memory
@@ -27,9 +27,6 @@ Native Method Libraries
 
 Why is Java called both interpreted and compiled?
 
-
-
----
 
 Class Loader Responsbility 
 1. Loading 
@@ -73,7 +70,6 @@ Better performance through caching
 
 Can Parent Delegation Be Broken?
 
----
 
 Heap Memory
 
@@ -105,11 +101,10 @@ s1 = Stack
 new : Heap -> Eden
 
 
----
 
 Garbage Collection 
 
-Stop the world Scenario
+Stop the World Scenario
 
 GC Roots
 1. Local Variables
@@ -121,7 +116,7 @@ Types of Garbage Collectors
 1. Serial
 2. Parallel
 3. CMS Conucurrent Mark & Sweep
-4. G1 GC
+4. G1 GC (Garbage First)
 5. Z GC
 6. Shenandoah GC 
 
@@ -129,10 +124,17 @@ CMS
 1. Live Object
 2. Dead Object
 
+Why Was CMS Removed?
+
+
 Rules of GC 
 1. UnReferenced Object
 2. Object Referred to Null
-3. Island of Isolation
+3. Island of Isolation (Write Code)
+
+
+Minor vs Major vs Full GC
+
 
 Does GC immediately delete an eligible object?
 
@@ -145,6 +147,10 @@ Types of Error
 Difference between OutOfMemoryError and StackOverflowError?
 
 finalize() Method
+Prefer
+1. try-with-resources
+2. AutoCloseable
+3. Explicit close() methods
 
 JVM TroubleShoooting 
 1. Heap Dump
@@ -173,11 +179,18 @@ Class.forName("Student"); vs ClassLoader.loadClass("Student");
 
 During which phase are static variables assigned their actual values?
 
----
+
+
 Study Later
 Tiered Compilation
 Modern Java now has 2Compiler
 C1, C2
 Code Cache
+
 How to run Java With Compile ? Java 11+
 Java Test.java 
+
+Trouble Shooting 
+Thread Dump
+Heap Dump 
+VisualVM 
