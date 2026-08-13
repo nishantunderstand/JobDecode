@@ -37,3 +37,8 @@ start chrome "https://github.com/nishantunderstand/JobDecode"
 git pull; git add .; git commit -m "New Hope | New Begining"; git push; git status;exit
 ---
 
+Friday, August 14, 2026 1:34:38 AM
+
+I put all the classified and Unclassfied notes there.
+It acts a backup as as source of truth.
+Some body i will find time and fix it.
