@@ -42,3 +42,22 @@ Friday, August 14, 2026 1:34:38 AM
 I put all the classified and Unclassfied notes there.
 It acts a backup as as source of truth.
 Some body i will find time and fix it.
+
+
+---
+
+Open it Obsidian Vault 
+
+& "C:\Program Files\Obsidian\Obsidian.exe" "C:\Users\User\eclipse-workspace\JobDecode"
+
+
+---
+
+ii .\Microservice.md      # Opens in default .md editor
+ii .\notes.txt            # Opens in default text editor
+ii .\design.png           # Opens in default image viewer
+ii .\document.pdf         # Opens in default PDF viewer
+
+ii .
+
+ii : Invoke Item 
