@@ -9,7 +9,16 @@ code (New-Item -ItemType File -Name "Spring-Core-1.md").FullName; exit
 
 
 
+---
+Setting Notepad++ as Enviornment Variable 
 
+Approach 1 : Tough 
+& "C:\Program Files (x86)\Notepad++\notepad++.exe" ".\Microservice.md"
+
+
+Approach 2 : Better
+$env:Path += ";C:\Program Files (x86)\Notepad++"
+notepad++ .\Microservice.md
 
 ---
 

@@ -1,0 +1,32 @@
+- Java Developer- (Mandate skillset -  Java + AWS + Spring boot + Microservices)
+- Experience: 4+
+- Location – Noida- Hybrid (Delhi NCR candidate preferred)
+- Spring Transactions: Expert level
+- Spring AOP: Expert level
+- RabbitMQ: Intermediate level
+- Redis: Intermediate level
+- Mandate skill- Java core,  springboot, database, J2EE, OOPS, Spring, Microservices, AWS
+- Job description : 
+- Hands-on programming skills to produce high-quality code with least bugs on deployment 
+- 4+ yrs of experience working on Java(v 1.8+) 
+- Spring Platform (v 4+), including  Spring Boot 
+- Good understanding of Data Structure & Algorithms.  
+- Experience with Apache POI, docx4j, or similar libraries for Word document manipulation.
+- Familiarity with HTML, CSS, and JavaScript.
+- Experience with image processing and embedding images into documents.
+- Knowledge of XML and Office Open XML (OOXML) for DOCX file manipulation.
+- Experience with headless browsers (e.g., Selenium) for rendering HTML content is a plus.
+- Ability to do Test Driven Development (No QA Support) 
+- Ability to do Object-Oriented design and programming.
+- Ability to use Java Spring design patterns.
+- Ability to entity and domain modelling of the system
+- Ability to do database tables or collections or documents schema design for at least one
+- each from given SQL and NoSQL databases
+- Good ability to design and build API driven system. 
+- Good understanding of web security vulnerabilities: 
+- Good understanding of web application performance measures.
+- Good application debugging techniques.
+- Ability to ship features end to end without much help.
+- Knowledge of modern source repository like  Git/ Mercury  
+- Good understanding of Code Quality and Code Review processes of an Agile Process
+- Good knowledge of cloud computation paradigm- Public Cloud Service Provider like AWS,Google, Microsoft etc.
