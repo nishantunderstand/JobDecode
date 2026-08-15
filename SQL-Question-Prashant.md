@@ -1,3 +1,14 @@
+
+[[SQL]]
+
+
+- https://www.youtube.com/playlist?list=PLGf6Ram2AQh2GpckMjstVH6AaTm0kPfgI
+
+
+
+
+
+
 # 1-20
 INSERT INTO department(dept_name) VALUES("home");
 ALTER TABLE department ADD COLUMN email VARCHAR(100);

@@ -1,3 +1,14 @@
+NEW ONE 
+
+ii (New-Item -ItemType File -Name "Java-Thread-2.md").FullName;exit;
+ii (New-Item -ItemType File -Name "Microservice.md").FullName;exit;
+ii (New-Item -ItemType File -Name "Hibernate-2.md").FullName;exit;
+
+
+
+
+OLD 
+
 code (New-Item -ItemType File -Name "Java-Version-11.md").FullName; exit
 code (New-Item -ItemType File -Name "Java-Core.md").FullName; exit
 
@@ -61,3 +72,5 @@ ii .\document.pdf         # Opens in default PDF viewer
 ii .
 
 ii : Invoke Item 
+
+
