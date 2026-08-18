@@ -4,24 +4,41 @@
     "type": "split",
     "children": [
       {
-        "id": "d6255c715e68e496",
+        "id": "aa8c5078492d48bd",
         "type": "tabs",
         "children": [
           {
-            "id": "12de0f99bbe4b347",
+            "id": "77257211c0fbd404",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Java-Thread-2.md",
+                "file": "Microservice.md",
                 "mode": "source",
-                "source": false
+                "source": false,
+                "backlinks": false
               },
               "icon": "lucide-file",
-              "title": "Java-Thread-2"
+              "title": "Microservice"
+            }
+          },
+          {
+            "id": "4d39fb28134574d6",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Microservice-ServiceDiscovery.md",
+                "mode": "source",
+                "source": false,
+                "backlinks": false
+              },
+              "icon": "lucide-file",
+              "title": "Microservice-ServiceDiscovery"
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -78,8 +95,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 200,
-    "collapsed": true
+    "width": 285.5
   },
   "right": {
     "id": "3a72b6a7926b8e9e",
@@ -95,7 +111,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Microservice.md",
+                "file": "Microservice-ServiceDiscovery.md",
                 "collapseAll": false,
                 "extraContext": true,
                 "sortOrder": "alphabetical",
@@ -105,7 +121,7 @@
                 "unlinkedCollapsed": false
               },
               "icon": "links-coming-in",
-              "title": "Backlinks for Microservice"
+              "title": "Backlinks for Microservice-ServiceDiscovery"
             }
           },
           {
@@ -154,8 +170,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 341.5,
-    "collapsed": true
+    "width": 341.5
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -167,34 +182,35 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "12de0f99bbe4b347",
+  "active": "4d39fb28134574d6",
   "lastOpenFiles": [
-    "Java-Thread-1.md",
     "Microservice.md",
-    "inbox.md",
-    "Untitled 3.md",
-    "Untitled 2.md",
-    "Untitled.md",
-    "Distributed Tracing.md",
-    "├── Choreography│    └── Orchestration.md",
-    "Untitled 1.md",
-    "DailyNote/2026-08-17.md",
-    "Spring-AOP.md",
-    "SQL.md",
-    "Accolite-4-YOE.md",
-    "CircuitBreaker AOP.md",
-    "HR.md",
-    "Java Developer TOC.md",
-    "Spring-Batch.md",
-    "AWS-Study.md",
-    "Entity  How to declare it.md",
-    "Circuit Breaker.md",
-    "DailyNote/2026-08-15.md",
-    "DailyNote/2026-08-16.md",
-    "Spring-MVC.md",
-    "Interview  HomeCredit 20260812.md",
-    "Java-Version-11.md",
-    "SQL-Question-Prashant.md",
+    "Accolite-6.md",
+    "DailyNote/2026-08-18.md",
+    "Microservice-ServiceDiscovery.md",
+    "MongoDB-Instagram.md",
+    "README.md",
+    "Untitled.canvas",
+    "2 Interview_Past/Job LTI MindTree Interview.md",
+    "Spring-2026-1.md",
+    "1 Topic To Revise Imp Interview/Monday-Interview-Reco.md",
+    "1 Topic To Revise Imp Interview/Spring Security.md",
+    "1 Topic To Revise Imp Interview/Thread-1.md",
+    "1 Topic To Revise Imp Interview/zPillar Of OOPs.md",
+    "1 Topic To Revise Imp Interview/Java.md",
+    "1 Topic To Revise Imp Interview/Interview EdTech.md",
+    "1 Topic To Revise Imp Interview/Interview Bravua.md",
+    "1 Topic To Revise Imp Interview/Interview.md",
+    "1 Topic To Revise Imp Interview/Docker.md",
+    "1 Topic To Revise Imp Interview/Angular.md",
+    "2 Interview_Past/Job Telkemidtz-Interview.md",
+    "2 Interview_Past/Job Spring-2026.md",
+    "2 Interview_Past/Job Java Interview Basic-ToSheet-Done.md",
+    "2 Interview_Past/Job Interview Yatra.md",
+    "2 Interview_Past/Job Interview Deloite-Paytm.md",
+    "2 Interview_Past/Job How 2 Approach Interview.md",
+    "2 Interview_Past/Job Hibernate Interview Done Anki.md",
+    "2 Interview_Past/Job GFG.md",
     "DailyNote"
   ]
 }
