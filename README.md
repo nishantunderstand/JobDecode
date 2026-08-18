@@ -46,6 +46,7 @@ Once Done or Satisifed : Remove this TODO
 ---
 
 git pull; git add .; git commit -m "New Hope | New Begining"; git push; git status;exit
+
 ---
 
 Friday, August 14, 2026 1:34:38 AM
