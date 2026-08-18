@@ -178,3 +178,13 @@ Critical Concepts
 Critical Code
 Critical Code Segment
 Shared Resource
+
+---
+Proxy
+The proxy is what allows Spring to intercept things such as:
+
+@Transactional
+@CircuitBreaker
+@Retryable
+@Cacheable
+@Async
