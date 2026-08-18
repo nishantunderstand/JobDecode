@@ -44,7 +44,7 @@ TODO : Preparing
 Once Done or Satisifed : Remove this TODO
 
 ---
-start chrome "https://github.com/nishantunderstand/JobDecode"
+
 git pull; git add .; git commit -m "New Hope | New Begining"; git push; git status;exit
 ---
 
