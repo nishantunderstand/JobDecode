@@ -4,22 +4,22 @@
     "type": "split",
     "children": [
       {
-        "id": "e57fe591ca0ca440",
+        "id": "215b74b545e9785d",
         "type": "tabs",
         "children": [
           {
-            "id": "0b102c66c2eed2af",
+            "id": "ab5a1e18dbc7ae63",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "AWS-1.md",
+                "file": "Java Production Issue/Out Of Memory Error.md",
                 "mode": "source",
                 "source": false,
                 "backlinks": false
               },
               "icon": "lucide-file",
-              "title": "AWS-1"
+              "title": "Out Of Memory Error"
             }
           }
         ]
@@ -54,7 +54,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "",
+                "query": "singleton",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -95,7 +95,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "AWS-1.md",
+                "file": "Java Production Issue/Out Of Memory Error.md",
                 "collapseAll": false,
                 "extraContext": true,
                 "sortOrder": "alphabetical",
@@ -105,7 +105,7 @@
                 "unlinkedCollapsed": false
               },
               "icon": "links-coming-in",
-              "title": "Backlinks for AWS-1"
+              "title": "Backlinks for Out Of Memory Error"
             }
           },
           {
@@ -158,16 +158,38 @@
   },
   "left-ribbon": {
     "hiddenItems": {
-      "switcher:Open quick switcher": false,
-      "graph:Open graph view": false,
-      "canvas:Create new canvas": false,
       "daily-notes:Open today's daily note": false,
+      "switcher:Open quick switcher": false,
+      "canvas:Create new canvas": false,
       "templates:Insert template": false,
-      "command-palette:Open command palette": false
+      "command-palette:Open command palette": false,
+      "graph:Open graph view": false
     }
   },
-  "active": "0b102c66c2eed2af",
+  "active": "ab5a1e18dbc7ae63",
   "lastOpenFiles": [
+    "Java Production Issue/Out Of Memory Error.md",
+    "Untitled 1.md",
+    "Java Production Issue",
+    "DailyNote/2026-08-19.md",
+    "1-Interview Past/Interview-1.md",
+    "1-Interview Past/Job Hibernate Interview Done Anki.md",
+    "Spring-DesignPattern.md",
+    "1-Interview Past/Job LTI MindTree Interview.md",
+    "AWS-EC2.md",
+    "Kafka-2.md",
+    "AWS-RDS.md",
+    "inbox.md",
+    "Kafka-1.md",
+    "AWS-RDS-Interview.md",
+    "AWS-2-Interview-Question.md",
+    "SQL.md",
+    "AWS-S3.md",
+    "Java-Testing-2.md",
+    "Java-1.md",
+    "Java Developer TOC.md",
+    "Java -Pillar Of OOPs.md",
+    "AWS-1.md",
     "1-Interview Past/2026/20260813 HomeCredit Inteview/new 3.txt",
     "1-Interview Past/2026/20260813 HomeCredit Inteview/new 2.txt",
     "1-Interview Past/2026/20260603 Futops Interview/new 1.txt",
@@ -177,33 +199,11 @@
     "1-Interview Past/2026/20260513 Interview/ReversePair.txt",
     "1-Interview Past/2026/20260513 Interview/Interview Bravura 3.txt",
     "1-Interview Past/2026/20260506 Interview BinarySementics/new 6.txt",
-    "1-Interview Past/2026/20260506 Interview BinarySementics/new 7.txt",
-    "1-Interview Past/2026/20260506 Interview BinarySementics/new 5.txt",
     "Microservice.md",
     "Microservice-2026.md",
     "Java-Thread-2.md",
     "Java-Thread-1.md",
-    "AWS-2-Interview-Question.md",
     "Spring-Interview-Recap.md",
-    "Java-Interview-Recap.md",
-    "2-UnImp/Accenture-Role-Available.md",
-    "1-Interview Past/Job Telkemidtz-Interview.md",
-    "1-Interview Past/Job Spring-2026.md",
-    "1-Interview Past/Job Redis.md",
-    "1-Interview Past/Job LTI MindTree Interview.md",
-    "1-Interview Past/Job Java Interview Basic-ToSheet-Done.md",
-    "1-Interview Past/Job LLD-2 Design Pattern.md",
-    "1-Interview Past/Job Interview Yatra.md",
-    "1-Interview Past/Job Interview HomeCredit 20260812.md",
-    "1-Interview Past/Job Interview HCL.md",
-    "1-Interview Past/Job Interview Deloite-Paytm.md",
-    "1-Interview Past/Job Interview Accenture-1-2025.md",
-    "1-Interview Past/Interview EdTech.md",
-    "1-Interview Past/Job Hibernate Interview Done Anki.md",
-    "1-Interview Past/Job How 2 Approach Interview.md",
-    "1-Interview Past/Interview-1.md",
-    "1-Interview Past/Job GFG.md",
-    "1-Interview Past/Interview Bravua.md",
     "Untitled.canvas"
   ]
 }
