@@ -9,8 +9,7 @@ Replication
 Sharding
 
 MongoDB Topic Name 
-
-https://www.instagram.com/p/DbnvEvnkxk4/?utm_source=ig_web_copy_link&igsh=MzRlODBiNWFlZA==&igsi=MzRlODBiNWFlZA==
+https://www.instagram.com/p/DbnvEvnkxk4
 
 Top 10 Question
 https://www.instagram.com/p/DUJDAUcDJ8-/
