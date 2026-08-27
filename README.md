@@ -1,3 +1,10 @@
+Excalidraw
+
+Ctrl+Alt+D : To Change theme
+
+
+---
+
 NEW ONE 
 
 ii (New-Item -ItemType File -Name "Java-Thread-2.md").FullName;exit;

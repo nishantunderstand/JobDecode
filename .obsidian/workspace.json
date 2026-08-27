@@ -4,19 +4,19 @@
     "type": "split",
     "children": [
       {
-        "id": "469b42ff05911124",
+        "id": "cc496f20b00fb592",
         "type": "tabs",
         "children": [
           {
-            "id": "31bf408c01ca5a7c",
+            "id": "441677ee7e73ffdf",
             "type": "leaf",
             "state": {
               "type": "excalidraw",
               "state": {
-                "file": "Excalidraw/Drawing 2026-08-26 20.18.03.excalidraw.md"
+                "file": "Excalidraw/Spring-Security-2026.excalidraw.md"
               },
               "icon": "excalidraw-icon",
-              "title": "Drawing 2026-08-26 20.18.03.excalidraw"
+              "title": "Spring-Security-2026.excalidraw"
             }
           }
         ]
@@ -76,7 +76,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 285.5
+    "width": 200,
+    "collapsed": true
   },
   "right": {
     "id": "3a72b6a7926b8e9e",
@@ -164,8 +165,12 @@
       "obsidian-excalidraw-plugin:New drawing": false
     }
   },
-  "active": "31bf408c01ca5a7c",
+  "active": "441677ee7e73ffdf",
   "lastOpenFiles": [
+    "Excalidraw/Spring-Security-2026.excalidraw.md",
+    "Excalidraw/My Project Diagram.excalidraw.md",
+    "README.md",
+    "My Project.md",
     "Excalidraw/Drawing 2026-08-26 20.18.03.excalidraw.md",
     "Excalidraw",
     "Untitled 1.md",
@@ -190,10 +195,6 @@
     "Kafka-1.md",
     "AWS-RDS.md",
     "1-Interview Past/Job Interview HCL.md",
-    "AWS-1.md",
-    "Accolite-6.md",
-    "Monday-Interview-Reco.md",
-    "1-Interview Past/Job Redis.md",
     "Java Production Issue",
     "1-Interview Past/2026/20260813 HomeCredit Inteview/new 3.txt",
     "1-Interview Past/2026/20260813 HomeCredit Inteview/new 2.txt",
