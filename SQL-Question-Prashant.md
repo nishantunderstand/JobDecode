@@ -1,11 +1,8 @@
 
-[[SQL]]
+[[SQL-0]]
 
 
 - https://www.youtube.com/playlist?list=PLGf6Ram2AQh2GpckMjstVH6AaTm0kPfgI
-
-
-
 
 
 

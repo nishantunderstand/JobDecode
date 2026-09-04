@@ -4,53 +4,46 @@
     "type": "split",
     "children": [
       {
-        "id": "cc496f20b00fb592",
+        "id": "dd3775303eb577ec",
         "type": "tabs",
         "children": [
           {
-            "id": "441677ee7e73ffdf",
-            "type": "leaf",
-            "state": {
-              "type": "excalidraw",
-              "state": {
-                "file": "Excalidraw/My Project Diagram.excalidraw.md"
-              },
-              "icon": "excalidraw-icon",
-              "title": "My Project Diagram.excalidraw"
-            }
-          },
-          {
-            "id": "15f19470bf592542",
+            "id": "a70a126301a76090",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Map-HashMap.md",
+                "file": "Microservice-5-APIGateway.md",
                 "mode": "source",
                 "source": false,
                 "backlinks": false
               },
               "icon": "lucide-file",
-              "title": "Map-HashMap"
-            }
-          },
-          {
-            "id": "982c37cbc7ec7511",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "SQL-1.md",
-                "mode": "source",
-                "source": false,
-                "backlinks": false
-              },
-              "icon": "lucide-file",
-              "title": "SQL-1"
+              "title": "Microservice-5-APIGateway"
             }
           }
-        ],
-        "currentTab": 2
+        ]
+      },
+      {
+        "id": "7ab2d80f531a5853",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "18649188824a99a2",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Microservice-5-APIGateway.md",
+                "mode": "source",
+                "source": false,
+                "backlinks": false
+              },
+              "icon": "lucide-file",
+              "title": "Microservice-5-APIGateway"
+            }
+          }
+        ]
       }
     ],
     "direction": "vertical"
@@ -82,7 +75,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "Git",
+                "query": "file:Microservice",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -103,11 +96,13 @@
               "title": "Bookmarks"
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "horizontal",
-    "width": 200
+    "width": 243.5,
+    "collapsed": true
   },
   "right": {
     "id": "3a72b6a7926b8e9e",
@@ -195,44 +190,44 @@
       "obsidian-excalidraw-plugin:New drawing": false
     }
   },
-  "active": "982c37cbc7ec7511",
+  "active": "18649188824a99a2",
   "lastOpenFiles": [
-    "Map-HashMap.md",
-    "SQL-1.md",
-    "Excalidraw/My Project Diagram.excalidraw.md",
-    "Excalidraw/Spring-Security-2026.excalidraw.md",
-    "README.md",
-    "My Project.md",
-    "Excalidraw/Drawing 2026-08-26 20.18.03.excalidraw.md",
+    "Excalidraw/Microservice-MentalModel.excalidraw.md",
+    "Images/Communication-Ways.png",
+    "Microservice-5-APIGateway.md",
+    "Microservice-4-Scaling.md",
+    "Microservice-Deployment.md",
+    "Microservice-3-Database.md",
+    "Microservice-2-Communication.md",
+    "Microservice-1-MonolithicVsMicroservice.md",
+    "Microservice.md",
+    "z1aa.md",
+    "Microservices-Design Patterns — Classification.md",
+    "Images",
+    "Microservice-Monitoring.md",
+    "Microservice-z-Reference-2026.md",
+    "Microservice-LoadBalancer.md",
+    "Microservice-Transaction.md",
+    "Microservice-Resilence-CircuitBreaker AOP.md",
+    "Microservice-Resilence.md",
+    "Microservice-ServiceDiscovery.md",
+    "Microservice-Mental-Model.md",
+    "z1a.md",
+    "Spring-DesignPattern.md",
+    "Spring-Exception.md",
+    "SQL-0.md",
+    "TODO-1.md",
+    "z1asas.md",
+    "z-2a.md",
+    "Excalidraw/Kafka-Failure-2.excalidraw",
     "Excalidraw",
-    "Untitled 1.md",
-    "Untitled 2.md",
     "Untitled.canvas",
-    "Untitled 3.md",
-    "z1.md",
-    "z2.md",
-    "Java Production Issue/Out Of Memory Error.md",
-    "SQL-Question-Prashant.md",
-    "inbox.md",
-    "Docker Guide.md",
-    "DailyNote/2026-08-17.md",
-    "DailyNote/2026-08-16.md",
-    "DailyNote/2026-08-18.md",
-    "DailyNote/2026-08-19.md",
-    "DailyNote/2026-08-20.md",
-    "DailyNote/2026-08-21.md",
-    "DailyNote/2026-08-22.md",
-    "DailyNote/2026-08-15.md",
-    "Kafka-2.md",
-    "Kafka-1.md",
     "Java Production Issue",
     "1-Interview Past/2026/20260813 HomeCredit Inteview/new 3.txt",
     "1-Interview Past/2026/20260813 HomeCredit Inteview/new 2.txt",
     "1-Interview Past/2026/20260603 Futops Interview/new 1.txt",
     "1-Interview Past/2026/20260603 Futops Interview/new 2.txt",
     "1-Interview Past/2026/20260603 Futops Interview/new 3.txt",
-    "1-Interview Past/2026/20260513 Interview/tripjack-1.txt",
-    "1-Interview Past/2026/20260513 Interview/ReversePair.txt",
-    "1-Interview Past/2026/20260513 Interview/Interview Bravura 3.txt"
+    "1-Interview Past/2026/20260513 Interview/tripjack-1.txt"
   ]
 }
