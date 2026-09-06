@@ -96,3 +96,6 @@ How do they fit together in an ecosystem ?
 ![[Logs-Metrics-Traces.png]]
 
 ---
+
+
+https://www.linkedin.com/feed/update/urn:li:activity:7469248420961017856/

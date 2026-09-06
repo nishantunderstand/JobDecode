@@ -1,5 +1,6 @@
 
-[[Kafka-Failure-1.excalidraw]]
+1. [[Kafka-Architecuture.excalidraw]]
+2. [[Kafka-Failure-1.excalidraw]]
 
 ---
 
@@ -33,36 +34,10 @@ Ordering is guaranteed only inside each partition.
 
 
 
-Message Queue  : 1 Publisher : 1 Subscriber
-Pub-Sub  : 1 Publisher : N Subscriber
-Kafka : 1 Publisher : N Subscriber + Distributed + Persistent Log 
-KAFKA Vs RabbitMQ vs ActiveMQ vs AWS SNS or Similar
 
 
-Why Kafka ? Why not use ActiveMQ or Rabbit MQ ? 
-[Apache Kafka Will Finally Makes Sense After This Video](https://www.youtube.com/watch?v=yjqwhr23vCs)
 
-When to use Kafka ?
-Why Kafka?
-Why do we need Kafka?
 
-Advantages of Kafka
-Disadvantage of kafka
-
-Architecture
-Monolithic Architecture
-Microservice Architecture
-
-Communication
-Sync (REST API)
-Async (Kafka)
-
-EventDriven Architecture
-What is EventDriven Architecture?
-Event
-Event Producer
-Event Consumer
-Cannot we achieve Event Driven Architecture by Active or RabbitMQ ?
 
 ---
 
@@ -85,6 +60,19 @@ request distribution
 routing
 low-latency messaging
 
+
+
+Why Kafka ? Why not use ActiveMQ or Rabbit MQ ? 
+[Apache Kafka Will Finally Makes Sense After This Video](https://www.youtube.com/watch?v=yjqwhr23vCs)
+
+When to use Kafka ?
+Why Kafka?
+Why do we need Kafka?
+
+Advantages of Kafka
+Disadvantage of kafka
+
+
 Kafka
 event streaming
 high throughput
@@ -97,17 +85,60 @@ multiple independent consumers
 
 [https://www.instagram.com/reels/Db5v8fxPvUS/](https://www.instagram.com/reels/Db5v8fxPvUS/)
 
+
+Message Queue  : 1 Publisher : 1 Subscriber
+Pub-Sub  : 1 Publisher : N Subscriber
+Kafka : 1 Publisher : N Subscriber + Distributed + Persistent Log 
+KAFKA Vs RabbitMQ vs ActiveMQ vs AWS SNS or Similar
+
+
+
+
+
+
+
+
+
+
+Architecture
+Monolithic Architecture
+Microservice Architecture
+
+
+
+Communication
+Sync (REST API)
+Async (Kafka)
+
+
+
+EventDriven Architecture
+What is EventDriven Architecture?
+Event
+Event Producer
+Event Consumer
+Cannot we achieve Event Driven Architecture by Active or RabbitMQ ?
+
+
+How EDA is different from Kafka 🤔🤔🤔 
+
+
+
+
+
+
 ---
 
 Kafka Architecture
 
 Kafka Cluster
-Broker
+Kafka Broker
 
 Producer
 Producer Group : Doesn't Exisits
 Consumer
 Consumer Group
+
 Topic
 Partition
 Offset
@@ -150,12 +181,15 @@ Order Service
  ├── OrderCreated
  ├── OrderCancelled
  └── OrderUpdated
+
 Payment Service
  ├── PaymentSuccess
  └── PaymentFailed
+
 Inventory Service
  ├── InventoryReserved
  └── InventoryFailed
+ 
 Based on We have 3 Business Event, 3 Topic 
 
 ---
@@ -163,11 +197,13 @@ Based on We have 3 Business Event, 3 Topic 
 # Partition
 
 Partitions — num.partitions
+
 Partitions determine:
 - Parallelism
 - Throughput
 - Maximum number of consumers processing simultaneously
 - Ordering scope
+
 How do we decide partitions?
 Incoming traffic = 10,000 messages/sec
 One consumer instance can process = 2,000 messages/sec
@@ -178,6 +214,7 @@ Current requirement = 5 partitions
 Expected growth = 2x
 You might choose:
 10–12 partitions
+
 Important rule
 Maximum active consumers ≈ Number of partitions
 Partition
@@ -194,22 +231,19 @@ P0 : More Traffic Here
 P1 : Less Traffic
 P2 : Less Traffic
 
-Sticky Partitioning
+Sticky Partitioning🤔🤔🤔 
 
 ---
-OffSet : An offset identifies a record's position within a partition.
-Topic vs Partition vs Offset
-
 ---
-Ordering 
-Kafka Ordering is Topic wide
-Ordering within a partition. 
 
 
 ---
 
 Topic 
 logical category/group of messages.
+
+
+
 
 Partition 
 A **partition is an ordered log of records** inside a topic.
@@ -218,17 +252,22 @@ Ordered append-only log of records
 
 OffSet
 Position of the record inside its partition
-
 Offset belongs to a Partition
+
+OffSet : An offset identifies a record's position within a partition.
+Topic vs Partition vs Offset
+
+
+
 
 Topic + Partitions + Offset
 
 Can a Broker have multiple Topics?	
 Can a Topic have multiple Partitions?	
-Can a Partition have multiple Offsets?
+Can a Partition have multiple Offsets? 🤔🤔🤔 
 
 
-One Partition can be assigned to only one Consumer within the same Consumer Group.
+==One Partition can be assigned to only one Consumer within the same Consumer Group.==
 Can two consumers read from the same Topic? (Same or Different Consumer Group)
 Can Brokers Be in Different Locations?
 Can a Topic Have Multiple Partitions?
@@ -256,6 +295,11 @@ Global Ordering
 
 Kafka Ordering + Key + Partition 
 
+Ordering 
+Kafka Ordering is Topic wide
+Ordering within a partition. 
+
+
 ---
 
 Leader Election
@@ -264,8 +308,8 @@ Replication Lag
 Broker 1 Dies, New Leader Broker 2
 What if Broker 1 is back ?
 What if Replica falls too far behind ?
-Preferred Replica vs ISR
-Leader Election vs Consumer Rebalance
+Preferred Replica vs ISR 🤔🤔🤔 
+Leader Election vs Consumer Rebalance 🤔🤔🤔 
 
 
 
@@ -309,22 +353,28 @@ Consumer 1
 Consumer 2
 Consumer 3
 Consumer 4
+
 If we have 3 Partition, Then we need 3 Consumer 
 Consumers ≤ Partitions
+
 Number of useful consumers ≤ Number of partitions
 Consumer 4 will be idle.
 P0 → Consumer 1
 P1 → Consumer 2
 P2 → Consumer 3
 Consumer 4 → Idle
+
 So partition count directly affects consumer scalability.
+
 How to decide on a Consumer Group ?
 Who needs to independently read to this event.
+
 For Example 
 This event Need to be read by Payment, Inventory , Rating 
 Then I need 3 groups.
 Consumer Group 
 5 Consumer  12 partition
+
 How to decide the partition ??
 C1
 C2
@@ -334,6 +384,7 @@ C5 : 
 12 / 5
 Quotient = 2
 Remainder = 2
+
 Then Try to Rebalance itself 
 How much parallelism does each group need?
 Different Consumer Groups can have different numbers of consumers
@@ -362,7 +413,7 @@ Option 1 — Add consumers
 Option 2 — Increase processing speed
 Option 3 — Increase partition count
 
-Consumer Lag vs Offset Commit
+Consumer Lag vs Offset Commit 🤔🤔🤔 
 
 
 Consumer Polling Model 
@@ -370,7 +421,9 @@ Consumer Polling Model 
 
 
 Consumer Group Coordinator
+
 Consumer Rebalancing
+
 When does Rebalancing happen ?
 1. Consumer joins
 2. Consumer leaves/crashes
@@ -404,8 +457,11 @@ Consumer-group partition assignment strategies
   
 # Replication Factor 
 
+RF ≥ F+1 to tolerate F broker failures,
+
 This is independent 
 replication.factor=3
+
 Example:
 Topic: orders
 Replication Factor = 3
@@ -413,12 +469,14 @@ Partition 0:
 Broker 1 → Leader
 Broker 2 → Replica | Follower
 Broker 3 → Replica
+
 How data will be synced across leaders and Followers  
+
 Explain me the meaning of 3 i.e 1 Leader  + 2 Follower 
 If Broker 1 crashes:
 Broker 2 → New Leader
 
-Common choice
+Common choice :
 
 | Environment | Replication Factor |
 | ----------- | ------------------ |
@@ -427,7 +485,8 @@ Common choice
 | Production  | 3                  |
 
 For a production system, RF = 3 is a very common starting point.
-Is there any mathematical formula for determining it ? 
+
+Is there any mathematical formula for determining it ? 🤔🤔🤔 
 
 ---
 
@@ -438,31 +497,38 @@ minISR = RF-1
 RF ≥ F+1 to tolerate F broker failures,
 What does this F represent ?
 "How many brokers can crash, and I still want my data/service to survive?"
+
 Broker 1 → Leader
 Broker 2 → Replica
 Broker 3 → Replica
+
 Broker 1 💥
 Broker 2 💥
 Broker 3 ✅
+
 You lost 2 brokers, but one copy still exists.
 Therefore:
 F = 2
 RF = 3
 This is extremely important.
+
 Suppose:
 Replication Factor = 3
 Broker 1 → Leader
 Broker 2 → Follower
 Broker 3 → Follower
+
 Set:
 min.insync.replicas=2
 It means Kafka requires at least 2 in-sync replicas for a successful durable write when the producer uses:
 acks=all
+
 Recommended combination
 replication.factor=3
 min.insync.replicas=2
 acks=all
 This gives good durability.
+
 
 ```
 Scenario
@@ -489,41 +555,41 @@ What if we have only 1 ISR ?  
 Think about a different edge case ?
 How will they behave around it ?
 
-|     |                    |            |        | acks=all ACCEPT if ISR >= minISR |        |        |          |
-| --- | ------------------ | ---------- | ------ | -------------------------------- | ------ | ------ | -------- |
-| RF  | Failed Replicas(F) | ISR = RF-F | minISR | Read                             | acks=0 | acks=1 | acks=all |
-| 3   | 0                  | 3          | 2      | ✅                                | ✅*     | ✅      | ✅        |
-| 3   | 1                  | 2          | 2      | ✅                                | ✅*     | ✅      | ✅        |
-| 3   | 2                  | 1          | 2      | ✅                                | ✅*     | ✅      | ❌        |
-| 3   | 3                  | 0          | 2      | ❌                                | ❌      | ❌      | ❌        |
-|     |                    |            |        |                                  |        |        |          |
-| RF  | Failed Replicas(F) | ISR = RF-F | minISR | Read                             | acks=0 | acks=1 | acks=all |
-| 2   | 0                  | 2          | 1      | ✅                                | ✅*     | ✅      | ✅        |
-| 2   | 1                  | 1          | 1      | ✅                                | ✅*     | ✅      | ✅        |
-| 2   | 2                  | 0          | 1      | ❌                                | ❌      | ❌      | ❌        |
-|     |                    |            |        |                                  |        |        |          |
-| RF  | Failed Replicas(F) | ISR = RF-F | minISR | Read                             | acks=0 | acks=1 | acks=all |
-| 1   | 0                  | 1          | 0      | ✅                                | ✅*     | ✅      | ✅        |
-| 1   | 1                  | 0          | 0      | ❌                                | ❌      | ❌      | ❌        |
-|     |                    |            |        |                                  |        |        |          |
-| RF  | Failed Replicas(F) | ISR = RF-F | minISR | Read                             | acks=0 | acks=1 | acks=all |
-| 0   | —                  | 0          | —      | ❌                                | ❌      | ❌      | ❌        |
+|     |                    |            |        |      |        |        | ISR >= minISR |
+| :-: | :----------------: | :--------: | :----: | :--: | :----: | :----: | :-----------: |
+| RF  | Failed Replicas(F) | ISR = RF-F | minISR | Read | acks=0 | acks=1 |   acks=all    |
+|  3  |         0          |     3      |   2    |  ✅   |   ✅*   |   ✅    |       ✅       |
+|  3  |         1          |     2      |   2    |  ✅   |   ✅*   |   ✅    |       ✅       |
+|  3  |         2          |     1      |   2    |  ✅   |   ✅*   |   ✅    |       ❌       |
+|  3  |         3          |     0      |   2    |  ❌   |   ❌    |   ❌    |       ❌       |
+| RF  | Failed Replicas(F) | ISR = RF-F | minISR | Read | acks=0 | acks=1 |   acks=all    |
+|  2  |         0          |     2      |   1    |  ✅   |   ✅*   |   ✅    |       ✅       |
+|  2  |         1          |     1      |   1    |  ✅   |   ✅*   |   ✅    |       ✅       |
+|  2  |         2          |     0      |   1    |  ❌   |   ❌    |   ❌    |       ❌       |
+| RF  | Failed Replicas(F) | ISR = RF-F | minISR | Read | acks=0 | acks=1 |   acks=all    |
+|  1  |         0          |     1      |   0    |  ✅   |   ✅*   |   ✅    |       ✅       |
+|  1  |         1          |     0      |   0    |  ❌   |   ❌    |   ❌    |       ❌       |
+| RF  | Failed Replicas(F) | ISR = RF-F | minISR | Read | acks=0 | acks=1 |   acks=all    |
+|  0  |         —          |     0      |   —    |  ❌   |   ❌    |   ❌    |       ❌       |
 
   
 RF = 3
 minISR = RF-1
 RF >= F+1
 ISR = RF-F
-acks=all ACCEPT if ISR >= minISR
+==acks=all ACCEPT if ISR >= minISR==
 acks=all REJECT if ISR < minISR
+
 
 ---
 Producer  Acknowledment 
-acks 0 : Don't wait for acknowledgment
-acks 1 : Leader acknowledges
-acks all : wait for all replicas currently in ISR.
+1. acks 0 : Don't wait for acknowledgment
+2. acks 1 : Leader acknowledges
+3. acks all : wait for all replicas currently in ISR.
+
 How data will get synced b/w leader and follower ?
 Leader + Followers / Replication
+What about Replication Lag 🤔🤔🤔 
   
 | acks | Producer waits for            |
 | ---- | ----------------------------- |
@@ -552,10 +618,13 @@ Kafka Key + Idempotency
 ---
 Kafka Batch 
 Kafka can batch messages.
+
 1. Based on time : linger.ms
 2. Based on Size : batch.size
+
 linger.ms 
 Batch.size
+
 Maximum approximate batch size before sending.
 
 Example:
@@ -571,27 +640,34 @@ Producer Buffer
 ```
 
 When the batch fills, it can be sent without waiting for linger.ms.
+
 High throughput → larger batches
 Low latency → smaller batching / lower linger
+
 batch.size  → "How MUCH data should I collect?"
 linger.ms   → "How LONG should I wait?"
+
 WHICHEVER HAPPENS FIRST → SEND  
+
 Whoever wins Between batch.size and linger.ms  : Based on that it send.
 
 # Compression
 
 compression.type=zstd
+
 Other options:
 1. none
 2. gzip
 3. snappy
 4. lz4
 5. zstd
+
 Tradeoff:
 Compression
 Less network
 Less disk usage
 More CPU
+
 A common modern choice is often:
 lz4 → fast
 zstd → better compression, with CPU tradeoffs
@@ -606,7 +682,6 @@ What is difference Between Communication and Message Protcols ? 🤔🤔🤔
 
 ---
 
-
 Kafka Streams
 1. KStream
 2. KTable
@@ -618,17 +693,15 @@ Offset Commit 
 2. Manual Commit 
 
 
-
 Delivery Semantics  Guarantees
 1. At-most-once : No duplicates, but possible loss
-2. At-least-once : No loss, but duplicates possible
+2. At-least-once : No loss, but duplicates possible 🤔🤔🤔 
 3. Exactly-once
 
 
 Offset Commit and Delivery Semantics
 
 ---
-
 
 cleanup.policy : whether the topic uses deletion, compaction, or both.
 
@@ -656,7 +729,10 @@ Types
 # Reliability & Data Management
 
 Kafka : Bytes
-Serialization / Deserialization
+Serialization / Deserialization 🤔🤔🤔 
+Where this conversion is happening ?
+DownStream System 
+
 Error Handling
 Dead Letter Topic 
 Retry Topic 
@@ -665,3 +741,9 @@ DLT Dead Letter Topic
 DLQ Dead Letter Queue
 Poison Pill Problem
 Retry : "Try again; this might work later."
+
+
+DLT vs DLQ 🤔🤔🤔 
+
+
+Retry Topic  vs  DLT Dead Letter Topic

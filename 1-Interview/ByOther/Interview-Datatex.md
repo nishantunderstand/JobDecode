@@ -9,6 +9,9 @@ Interview experience at datatex.
 7. Write one sql to find all the orders placed in the last 12months by the customer where the customer made at least 3 orders sorted in description order( order and customer table was give)
 8. Questions related to transaction propagation in java.
 9. What happens if an exception is thrown while a transaction is ongoing?
+
+
+
 Then some current project's questions
 1. What was one of the hardest problem you solved? Briefly describe the requirement and the solution.
 2. How do you approach a code review? Give an example

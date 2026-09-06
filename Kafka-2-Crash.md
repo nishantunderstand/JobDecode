@@ -289,7 +289,7 @@ Consumer may skip it.
 
 ➡️ **Potential message loss**
 
-This is why blindly committing before processing is dangerous.
+This is why blindly committing before processing is dangerous. 🤔🤔🤔 
 
 ---
 
@@ -486,7 +486,7 @@ Interviewer:
 
 ❌ Wrong.
 
-Kafka can result in duplicate processing depending on the consumer failure/commit timing.
+Kafka can result in duplicate processing depending on the consumer failure/commit timing. 🤔🤔🤔 
 
 For example:
 
@@ -538,7 +538,7 @@ Kafka sends message again
 DB update again
 ```
 
-You now have a **duplicate business operation**.
+You now have a **duplicate business operation**. 
 
 This is why real systems often use:
 

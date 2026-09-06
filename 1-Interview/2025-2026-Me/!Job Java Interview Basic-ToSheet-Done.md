@@ -12,6 +12,7 @@ A:System.out, System.err
 		InputStream
 		To Use, we need to create Scanner class for taking input with the system.in.
 	 
+
 Q:Difference in the use of print, println, and printf.
 A:Similarity : Used for Printing
 	Difference in Cursor 

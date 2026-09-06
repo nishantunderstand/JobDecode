@@ -19,6 +19,8 @@ This is the classic question they generally ask
  11. ConcurrentHashMap internals.
  12. How does Java garbage collection work?
 
+
+
 𝗗𝗦𝗔/𝗖𝗼𝗱𝗶𝗻𝗴
  1. How to find duplicate strings in a list of strings?
  2. Write a program to find if a string is a palindrome string. 
@@ -34,11 +36,15 @@ This is the classic question they generally ask
  12. Coin change problem (minimum coins).
  13. Reverse-add palindrome problem.
 
+
+
 𝗗𝗮𝘁𝗮𝗯𝗮𝘀𝗲 (𝗦𝗤𝗟)
  1. How to find the number of tables and their columns in the SQL DB?
  2. What is the purpose of a database index?
  3. How do you detect duplicate rows in SQL?
  4. How would you design a schema for a ride-sharing app?
+
+
 
 𝗪𝗲𝗯/𝗙𝗿𝗮𝗺𝗲𝘄𝗼𝗿𝗸𝘀
  1. Difference between REST and SOAP.
@@ -50,12 +56,16 @@ This is the classic question they generally ask
  7. What is a RESTful API?
  8. Difference between HTTP and HTTPS.
 
+
+
 𝗦𝘆𝘀𝘁𝗲𝗺 𝗗𝗲𝘀𝗶𝗴𝗻
  1. Explain the design of one of your recent projects.
  2. Fraud detection model for transactions.
  3. Database design for ride-sharing.
  4. Data warehouse for an online retailer.
  5. Design a news aggregator.
+
+
 
 𝗦𝗲𝗿𝘃𝗲𝗿/𝗦𝘆𝘀𝘁𝗲𝗺
  1. How to find server crash reasons?

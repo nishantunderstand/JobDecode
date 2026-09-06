@@ -1,8 +1,8 @@
 Interview Nagaro 2026
 
-[14/04, 12:16 am] TCS GeM Deepak Kumar Incident: Basic core java 
+Basic core java 
 Spring boot
-[14/04, 12:20 am] TCS GeM Deepak Kumar Incident: Oops 
+Oops 
 Final finally finalize 
 Abstract vs interface 
 Exception handling 

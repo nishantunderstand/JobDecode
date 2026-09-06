@@ -110,6 +110,4 @@ Different Version
     ├── Performance
     └── Reliability
 
-
-
 My Doubt I am java engienrr, i read this concept, will this concept be differen there same little bit AWS mofifed
