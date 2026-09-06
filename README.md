@@ -1,20 +1,36 @@
-Excalidraw
 
-Ctrl+Alt+D : To Change theme
+
+Sunday, September 6, 2026 10:50:42 AM
+1. Stop Using Horizontal Line as Seperator
+2. Instead Start Using Space as a Visual Seperator
+3. Collect All Information at once Add Visual Space.
+4. Then Start Making Connection.
+5. Use Example to corelate to it.
+
 
 
 ---
 
-NEW ONE 
+
+Use Excalidraw
+Ctrl+Alt+D : To Change theme
+
+---
+Super Latest One
+Customized keyboard Shortcut to open in notepad++
+No Match of Notepad++
+
+---
+
+New One For VS Code 
 
 ii (New-Item -ItemType File -Name "Java-Thread-2.md").FullName;exit;
 ii (New-Item -ItemType File -Name "Microservice.md").FullName;exit;
 ii (New-Item -ItemType File -Name "Hibernate-2.md").FullName;exit;
 
 
-
-
-OLD 
+---
+Old Approach 
 
 code (New-Item -ItemType File -Name "Java-Version-11.md").FullName; exit
 code (New-Item -ItemType File -Name "Java-Core.md").FullName; exit
@@ -76,9 +92,7 @@ ii .\Microservice.md      # Opens in default .md editor
 ii .\notes.txt            # Opens in default text editor
 ii .\design.png           # Opens in default image viewer
 ii .\document.pdf         # Opens in default PDF viewer
-
 ii .
-
 ii : Invoke Item 
 
 

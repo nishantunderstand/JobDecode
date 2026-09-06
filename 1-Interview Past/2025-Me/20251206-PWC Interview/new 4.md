@@ -1,4 +1,0 @@
-void add(int a,int b)
-int add(int a,int b,int c)
-
-add(int a,int b)

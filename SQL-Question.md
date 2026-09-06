@@ -1,5 +1,5 @@
 
-[[SQL-0]]
+[[SQL]]
 
 DataType
 

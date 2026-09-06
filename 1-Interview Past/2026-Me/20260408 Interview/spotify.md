@@ -1,3 +1,0 @@
-Client ID 20899b843ffe4d208d36aad251fc960d
-
-SecretID : e9d8452e434740b980b2823be53ce55d

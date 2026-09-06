@@ -1,3 +1,9 @@
+
+Architectural Style 
+1. Monolithic
+2. Microservice
+
+
 Types : 
 1. Schema per Service Design Pattern  
 2. Database per Service Design Pattern
@@ -14,4 +20,4 @@ Database per Service Design Pattern
 Physical Isolation
 
 
-🤔🤔🤔  Are there any other Design Pattern 
+

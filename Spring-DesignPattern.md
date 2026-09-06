@@ -9,4 +9,8 @@ FrontController DispatcherServlet
 MVC
 
 
+---
+Proxy Design Pattern
+
+
 https://www.instagram.com/reels/DblPyp6Mwip/

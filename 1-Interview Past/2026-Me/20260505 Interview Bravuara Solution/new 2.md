@@ -1,5 +1,0 @@
-IncidentController
-IncidentFacade
-IncidentService
-Incident
-

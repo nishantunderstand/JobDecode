@@ -43,3 +43,15 @@ Spring MVC Exception Handling
        └── MethodArgumentNotValidException
 
 
+
+
+
+
+
+----
+
+@ResponseStatus	Simple exception
+@ExceptionHandler	Custom response body banana ho
+@RestControllerAdvice	Global handling
+Who will get more priority ?
+

@@ -1,8 +1,0 @@
-ServiceA
-	KAFKA INSERTED
-
-ServiceB 
-	KAFKA INSERTED
-	
-
-

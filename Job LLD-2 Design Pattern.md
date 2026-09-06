@@ -2,8 +2,6 @@ Adapter Design Pattern
 Top Interview Question MCQ Question
 Show Answer in the Bottom with Explanation.
 
-
-
 Adapter Design Pattern 
 I want exact URLs  from this specified websites Mentioned Below Only On this Topic Only
 Programming Language : Java
