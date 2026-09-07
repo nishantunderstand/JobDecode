@@ -1,4 +1,17 @@
 
+ii (New-Item -ItemType File -Name "Interview-.md").FullName;exit;
+
+
+
+
+
+---
+
+
+Obsidian Rules :
+1. Detech Files of all types.
+
+
 
 Sunday, September 6, 2026 10:50:42 AM
 1. Stop Using Horizontal Line as Seperator
@@ -96,3 +109,14 @@ ii .
 ii : Invoke Item 
 
 
+---
+
+
+# ObsidianStudyRules 
+1. Try to Understand it.
+2. Visual Diagram is the best.
+3. Less Memory Overhead.
+4. Learn by Example. You need to communicate.
+5. People can relate Example Not Defintion.
+6. Person Taking Interview Doesn't Recall Definition.
+7. It remember how it works ? Edge Case..

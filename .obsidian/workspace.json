@@ -4,22 +4,19 @@
     "type": "split",
     "children": [
       {
-        "id": "2f0a01420e737bd6",
+        "id": "6611ea1fbb8179e0",
         "type": "tabs",
         "children": [
           {
-            "id": "297d6df292ece4de",
+            "id": "35fc5301392927b4",
             "type": "leaf",
             "state": {
-              "type": "markdown",
+              "type": "excalidraw",
               "state": {
-                "file": "1-Interview/2025-2026-Me/Interview-20251006-HCL.md",
-                "mode": "source",
-                "source": false,
-                "backlinks": false
+                "file": "Excalidraw/Spring-Security-2026.excalidraw.md"
               },
-              "icon": "lucide-file",
-              "title": "Interview-20251006-HCL"
+              "icon": "excalidraw-icon",
+              "title": "Spring-Security-2026.excalidraw"
             }
           }
         ]
@@ -167,10 +164,25 @@
       "obsidian-excalidraw-plugin:New drawing": false
     }
   },
-  "active": "297d6df292ece4de",
+  "active": "35fc5301392927b4",
   "lastOpenFiles": [
-    "1-Interview/2025-2026-Me/Interview-20260901-MindFire.md",
+    "Excalidraw/Spring-Security.excalidraw.md",
+    "Spring-JWT.md",
+    "DailyNote/2026-09-07.md",
+    "Spring-Security.md",
+    "image2_0.png",
+    "image2.png",
+    "Spring-Security-1.md",
+    "README.md",
+    "zzzzzzzzVS-Code_NoSuggestion.code-workspace",
+    "_zzzzzzzzVS-Code_NoSuggestion.code-workspace",
+    "_VS-Code_NoSuggestion copy.code-workspace",
+    "Testing-11111.md",
+    "1-Interview/ByOther/Interview-0-Referecne.md",
+    "Docker.md",
+    "1-Interview/ByOther/Interview-Wissen.md",
     "1-Interview/2025-2026-Me/Interview-20251006-HCL.md",
+    "1-Interview/2025-2026-Me/Interview-20260901-MindFire.md",
     "1-Interview/2025-2026-Me/20260801 IRIS.md",
     "1-Interview/ByOther/Interview-Synchron.md",
     "Java 8 → 17 → 21 → 25 🚀.md",
@@ -185,17 +197,7 @@
     "SQL-FAANG.md",
     "Java-Exception-2.md",
     "Microservice-8-Observability-Logs-Metrics-Traces.md",
-    "Microservice-8a-Logging.md",
-    "Docker-2.md",
-    "SpringBoot-Database.md",
-    "Java-Version.png",
-    "1-Interview/2025-2026-Me/20251206 PWC.md",
-    "1-Interview/2025-2026-Me/Interview-20251120-Accenture-1-2025.md",
-    "1-Interview/2025-2026-Me/Interview-20250916-HSBC.md",
-    "1-Interview/2025-2026-Me/Interview-20250721-Infosys.md",
-    "1-Interview/2025-2026-Me/Interview-20260905-HCLTech.md",
-    "1-Interview/2025-2026-Me/Interview-20260901-FerfierTechnologies.md",
-    "1-Interview/2025-2026-Me/Interview-20260826-Impectus.md",
+    "Images/Java-Version.png",
     "Images/Kafka-Image-ACK-ISR.png",
     "1-Interview Past/2025-Me/2025",
     "Excalidraw/Scripts/Downloaded/Mindmap Builder.svg",
@@ -209,10 +211,7 @@
     "Images/Logs-Metrics-Traces.png.~tmp",
     "Pasted image 20260904193016.png",
     "Images/DeploymentStrategy.png",
-    "_VS-Code_NoSuggestion.code-workspace",
     "Images/Communication-Ways.png",
-    "Images",
-    "Excalidraw",
     "Untitled.canvas"
   ]
 }
