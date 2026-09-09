@@ -41,7 +41,6 @@ AWS for Java Developer
    └── Backup
 Different Version 
 
-
 6. Databases
    ├── RDS : Relational
    ├── Aurora

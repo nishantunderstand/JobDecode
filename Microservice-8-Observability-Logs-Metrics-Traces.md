@@ -93,7 +93,7 @@ How do they fit together in an ecosystem ?
 
 
 ---
-![[Logs-Metrics-Traces.png]]
+![[Spring-Security-Logs-Metrics-Traces.png]]
 
 ---
 

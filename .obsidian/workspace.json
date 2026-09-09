@@ -4,19 +4,22 @@
     "type": "split",
     "children": [
       {
-        "id": "6611ea1fbb8179e0",
+        "id": "1b5259ceed5e41ba",
         "type": "tabs",
         "children": [
           {
-            "id": "35fc5301392927b4",
+            "id": "b348ae0dcf2146fb",
             "type": "leaf",
             "state": {
-              "type": "excalidraw",
+              "type": "markdown",
               "state": {
-                "file": "Excalidraw/Spring-Security-2026.excalidraw.md"
+                "file": "DailyNote/2026-09-09.md",
+                "mode": "source",
+                "source": false,
+                "backlinks": false
               },
-              "icon": "excalidraw-icon",
-              "title": "Spring-Security-2026.excalidraw"
+              "icon": "lucide-file",
+              "title": "2026-09-09"
             }
           }
         ]
@@ -51,10 +54,10 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "",
+                "query": "file:kafka",
                 "matchingCase": false,
                 "explainSearch": false,
-                "collapseAll": false,
+                "collapseAll": true,
                 "extraContext": false,
                 "sortOrder": "alphabetical"
               },
@@ -92,6 +95,7 @@
             "state": {
               "type": "backlink",
               "state": {
+                "file": "Java-Production-Memory-StackOverFlowError.md",
                 "collapseAll": false,
                 "extraContext": true,
                 "sortOrder": "alphabetical",
@@ -101,7 +105,7 @@
                 "unlinkedCollapsed": false
               },
               "icon": "links-coming-in",
-              "title": "Backlinks"
+              "title": "Backlinks for Java-Production-Memory-StackOverFlowError"
             }
           },
           {
@@ -164,54 +168,54 @@
       "obsidian-excalidraw-plugin:New drawing": false
     }
   },
-  "active": "35fc5301392927b4",
+  "active": "b348ae0dcf2146fb",
   "lastOpenFiles": [
-    "Excalidraw/Spring-Security.excalidraw.md",
-    "Spring-JWT.md",
-    "DailyNote/2026-09-07.md",
-    "Spring-Security.md",
-    "image2_0.png",
-    "image2.png",
-    "Spring-Security-1.md",
-    "README.md",
+    "DailyNote/2026-09-09.md",
+    "Untitled 2.md",
+    "Untitled 1.md",
+    "Java 8-11-17-21-25.md",
+    "Pasted image 20260909144557.png",
+    "Untitled.md",
+    "Kafka-2b1-Architecture-Overview.md",
+    "Kafka-2a-Microservice.md",
+    "Kafka-1.md",
+    "Kafka.md",
+    "Microservice.md",
+    "1-Test-1/2026-09-09-!Kubernetes-TOC.md",
+    "1-Test-1/2026-09-09-my-first-article.md",
+    "_inbox.md",
+    "Excalidraw/Kafka-Architecuture.excalidraw.md",
+    "!obsidian_to_pdf_24.py",
+    "obsidian_to_pdf_24.py",
+    "Kafka-Interview-Scenario-QA.md",
+    "Kafka-Interview-Scenario-Q.md",
+    "Excalidraw/Kafka-Failure-2.excalidraw.md",
+    "Excalidraw/Kafka-Failure-1.excalidraw.md",
+    "Images/Kafka-ACK-ISR.png",
+    "Kafka-7-Calculation-Question.md",
+    "Kafka-6-Crash.md",
+    "kafka-5a-Question.md",
+    "Kafka-4-Reliability.md",
+    "Kafka-3-Design.md",
+    "Kafka-2b2-Architecture-2.md",
+    "Kafka-2b2-Architecture-1.md",
+    "Docker-Networking-2.md",
+    "Images/Docker-Data-Persitent.png",
+    "Images/Docker-Container-vs-Virtual.png",
+    "Images/Docker-Container-LifeCycle.png",
+    "Images/Docker-CMD-Vs-EntryPoint.png",
+    "Images/Docker-Architecture.png",
+    "Images/Java-Version-8-25.png",
+    "Images/Docker-Guide-101.jpg",
+    "Images/Microservice-Communication-Ways.png",
+    "Container-LifeCycle.png.~tmp",
+    "Docker-Architecture.png.~tmp",
+    "Pasted image 20260907235836.png.~tmp",
     "zzzzzzzzVS-Code_NoSuggestion.code-workspace",
     "_zzzzzzzzVS-Code_NoSuggestion.code-workspace",
     "_VS-Code_NoSuggestion copy.code-workspace",
-    "Testing-11111.md",
-    "1-Interview/ByOther/Interview-0-Referecne.md",
-    "Docker.md",
-    "1-Interview/ByOther/Interview-Wissen.md",
-    "1-Interview/2025-2026-Me/Interview-20251006-HCL.md",
-    "1-Interview/2025-2026-Me/Interview-20260901-MindFire.md",
-    "1-Interview/2025-2026-Me/20260801 IRIS.md",
-    "1-Interview/ByOther/Interview-Synchron.md",
-    "Java 8 → 17 → 21 → 25 🚀.md",
-    "1-Interview/ByOther/Interview-AmericianExpress-202603.md",
-    "Spring-Interview-Recap-1.md",
-    "SprintBoot-Failing-Reason.md",
-    "Java-HashMap-InternalWorking-TODO.md",
-    "DSA-Rules.md",
-    "S.md",
-    "SpringBoot-StartUp-Time.md",
-    "SpringBoot-LifeCycle.md",
-    "SQL-FAANG.md",
-    "Java-Exception-2.md",
-    "Microservice-8-Observability-Logs-Metrics-Traces.md",
-    "Images/Java-Version.png",
-    "Images/Kafka-Image-ACK-ISR.png",
     "1-Interview Past/2025-Me/2025",
-    "Excalidraw/Scripts/Downloaded/Mindmap Builder.svg",
     "Excalidraw/Scripts/Downloaded",
-    "Excalidraw/Scripts",
-    "Excalidraw/Libraries/local-library.excalidrawlib",
-    "Excalidraw/Libraries",
-    "Images/Kafka-Message-Structure.png",
-    "Excalidraw/Kafka-Failure-2.excalidraw",
-    "Images/Logs-Metrics-Traces.png",
-    "Images/Logs-Metrics-Traces.png.~tmp",
-    "Pasted image 20260904193016.png",
-    "Images/DeploymentStrategy.png",
-    "Images/Communication-Ways.png",
     "Untitled.canvas"
   ]
 }

@@ -21,7 +21,7 @@ Types :
 Blue-Green vs Canary Deployment   
 
 ---
-![[DeploymentStrategy.png]]
+![[Microservice-DeploymentStrategy.png]]
 
 ---
 

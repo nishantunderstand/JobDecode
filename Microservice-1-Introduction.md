@@ -19,12 +19,19 @@ Microservice
 
 
 Monolithic Vs Microservice
-Deployment, Network Calls, Transaction Management, Coupling , Scalability, 
-Codebase, Debugging
+Deployment
+Network Calls
+Transaction Management
+Coupling 
+Scalability
+Codebase
+Debugging
 
 
 Why migrate Monolithic to Microservice ?
 Independent Scaling , Independent Deployment , Team Scalability , Reduce Organizational Coupling , Fault Isolation
+
+
 
 Parameter of Judgment :
 1. System Size

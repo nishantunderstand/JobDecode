@@ -1,5 +1,6 @@
+1. [[Kafka-Failure-1.excalidraw]]
+2. [[Kafka-Failure-2.excalidraw]]
 
-[[Kafka-Failure-2.excalidraw]]
 
 # Kafka Consumer Crash & Offset Commit
 

@@ -15,7 +15,7 @@ AMQP : Advanced Message Queuing Protocol
 Famosuly Used for RabbitMQ
 
 
-![[Communication-Ways.png]]
+![[Microservice-Communication-Ways.png]]
 
 ---
 
