@@ -4,22 +4,22 @@
     "type": "split",
     "children": [
       {
-        "id": "1b5259ceed5e41ba",
+        "id": "c4810d0c7dce7f37",
         "type": "tabs",
         "children": [
           {
-            "id": "b348ae0dcf2146fb",
+            "id": "dab96add080ee15e",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "DailyNote/2026-09-09.md",
+                "file": "Linux-1.md",
                 "mode": "source",
                 "source": false,
                 "backlinks": false
               },
               "icon": "lucide-file",
-              "title": "2026-09-09"
+              "title": "Linux-1"
             }
           }
         ]
@@ -54,7 +54,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "file:kafka",
+                "query": "tag:#begin",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": true,
@@ -75,7 +75,8 @@
               "title": "Bookmarks"
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "horizontal",
@@ -95,9 +96,9 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Java-Production-Memory-StackOverFlowError.md",
+                "file": "Linux-1.md",
                 "collapseAll": false,
-                "extraContext": true,
+                "extraContext": false,
                 "sortOrder": "alphabetical",
                 "showSearch": false,
                 "searchQuery": "",
@@ -105,7 +106,7 @@
                 "unlinkedCollapsed": false
               },
               "icon": "links-coming-in",
-              "title": "Backlinks for Java-Production-Memory-StackOverFlowError"
+              "title": "Backlinks for Linux-1"
             }
           },
           {
@@ -114,11 +115,12 @@
             "state": {
               "type": "outgoing-link",
               "state": {
+                "file": "Linux-1.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               },
               "icon": "links-going-out",
-              "title": "Outgoing links"
+              "title": "Outgoing links from Linux-1"
             }
           },
           {
@@ -142,20 +144,21 @@
             "state": {
               "type": "outline",
               "state": {
+                "file": "Linux-1.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "Outline"
+              "title": "Outline of Linux-1"
             }
           }
-        ]
+        ],
+        "currentTab": 2
       }
     ],
     "direction": "horizontal",
-    "width": 341.5,
-    "collapsed": true
+    "width": 341.5
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -168,46 +171,46 @@
       "obsidian-excalidraw-plugin:New drawing": false
     }
   },
-  "active": "b348ae0dcf2146fb",
+  "active": "dab96add080ee15e",
   "lastOpenFiles": [
-    "DailyNote/2026-09-09.md",
-    "Untitled 2.md",
-    "Untitled 1.md",
-    "Java 8-11-17-21-25.md",
-    "Pasted image 20260909144557.png",
-    "Untitled.md",
-    "Kafka-2b1-Architecture-Overview.md",
     "Kafka-2a-Microservice.md",
-    "Kafka-1.md",
-    "Kafka.md",
-    "Microservice.md",
-    "1-Test-1/2026-09-09-!Kubernetes-TOC.md",
-    "1-Test-1/2026-09-09-my-first-article.md",
-    "_inbox.md",
+    "Linux-1.md",
+    "1-Interview/ByOther/Interview-Infosys-20260909.md",
+    "Excalidraw/SpringBootProject-Level-2.excalidraw.md",
+    "Excalidraw/SpringBootProject-Level-1.excalidraw.md",
+    "Excalidraw/Spring-Security.excalidraw.md",
+    "Excalidraw/Kafka-Failure-2.excalidraw.md",
     "Excalidraw/Kafka-Architecuture.excalidraw.md",
+    "Excalidraw/JDBC.excalidraw.md",
+    "Excalidraw/HLD.excalidraw.md",
+    "Microservice.md",
+    "Microservice-1-Introduction.md",
+    "Microservice-8-Observability-Logs-Metrics-Traces.md",
+    "Microservice-Reference-2026.md",
+    "Spring-Security-Flow.png",
+    "Images/Spring-Security-Flow.png",
+    "Images/Spring-AOP-Advice.png",
+    "Images/Java8-11-17-21.png",
+    "Spring-AOP-Advice.png",
+    "Spring-AOP.png",
+    "Java8-11-17-21.png",
+    "Untitled.md",
+    "Untitled 1.md",
+    "Untitled 2.md",
+    "Spring-Security.md",
+    "Excalidraw/Spring-Security-JWT.excalidraw.md",
+    "Interview-Resource.md",
+    "Interview-TechMahindra-2026.md",
+    "_inbox.md",
+    "DailyNote/2026-09-09.md",
+    "Java 8-11-17-21-25.md",
+    "Kafka-2b1-Architecture-Overview.md",
+    "Kafka-1.md",
     "!obsidian_to_pdf_24.py",
     "obsidian_to_pdf_24.py",
-    "Kafka-Interview-Scenario-QA.md",
-    "Kafka-Interview-Scenario-Q.md",
-    "Excalidraw/Kafka-Failure-2.excalidraw.md",
-    "Excalidraw/Kafka-Failure-1.excalidraw.md",
     "Images/Kafka-ACK-ISR.png",
-    "Kafka-7-Calculation-Question.md",
-    "Kafka-6-Crash.md",
-    "kafka-5a-Question.md",
-    "Kafka-4-Reliability.md",
-    "Kafka-3-Design.md",
-    "Kafka-2b2-Architecture-2.md",
-    "Kafka-2b2-Architecture-1.md",
-    "Docker-Networking-2.md",
     "Images/Docker-Data-Persitent.png",
     "Images/Docker-Container-vs-Virtual.png",
-    "Images/Docker-Container-LifeCycle.png",
-    "Images/Docker-CMD-Vs-EntryPoint.png",
-    "Images/Docker-Architecture.png",
-    "Images/Java-Version-8-25.png",
-    "Images/Docker-Guide-101.jpg",
-    "Images/Microservice-Communication-Ways.png",
     "Container-LifeCycle.png.~tmp",
     "Docker-Architecture.png.~tmp",
     "Pasted image 20260907235836.png.~tmp",

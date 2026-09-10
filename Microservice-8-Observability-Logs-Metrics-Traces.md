@@ -4,7 +4,6 @@ Architectural Style 
 
 Why ?
 
-
 ---
 Learn this by an example :  
 
