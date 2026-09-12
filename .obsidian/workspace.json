@@ -4,22 +4,22 @@
     "type": "split",
     "children": [
       {
-        "id": "c4810d0c7dce7f37",
+        "id": "51a5516eb425eab3",
         "type": "tabs",
         "children": [
           {
-            "id": "dab96add080ee15e",
+            "id": "014e14d9df163576",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Linux-1.md",
+                "file": "_inbox.md",
                 "mode": "source",
                 "source": false,
                 "backlinks": false
               },
               "icon": "lucide-file",
-              "title": "Linux-1"
+              "title": "_inbox"
             }
           }
         ]
@@ -54,8 +54,8 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "tag:#begin",
-                "matchingCase": false,
+                "query": "tag:kafka",
+                "matchingCase": true,
                 "explainSearch": false,
                 "collapseAll": true,
                 "extraContext": false,
@@ -75,8 +75,7 @@
               "title": "Bookmarks"
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "horizontal",
@@ -96,7 +95,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Linux-1.md",
+                "file": "AWS.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -106,7 +105,7 @@
                 "unlinkedCollapsed": false
               },
               "icon": "links-coming-in",
-              "title": "Backlinks for Linux-1"
+              "title": "Backlinks for AWS"
             }
           },
           {
@@ -115,12 +114,12 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Linux-1.md",
+                "file": "AWS.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               },
               "icon": "links-going-out",
-              "title": "Outgoing links from Linux-1"
+              "title": "Outgoing links from AWS"
             }
           },
           {
@@ -129,7 +128,7 @@
             "state": {
               "type": "tag",
               "state": {
-                "sortOrder": "frequency",
+                "sortOrder": "alphabetical",
                 "useHierarchy": true,
                 "showSearch": false,
                 "searchQuery": ""
@@ -144,13 +143,13 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Linux-1.md",
+                "file": "AWS.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "Outline of Linux-1"
+              "title": "Outline of AWS"
             }
           }
         ],
@@ -158,7 +157,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 341.5
+    "width": 244.5
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -171,22 +170,35 @@
       "obsidian-excalidraw-plugin:New drawing": false
     }
   },
-  "active": "dab96add080ee15e",
+  "active": "0fb4ff69ae072b58",
   "lastOpenFiles": [
-    "Kafka-2a-Microservice.md",
-    "Linux-1.md",
-    "1-Interview/ByOther/Interview-Infosys-20260909.md",
+    "_inbox.md",
+    "Excalidraw/SpringBootProject-Level-1.0.excalidraw.md",
+    "Java Priority Queue-1.txt",
+    "Java Priority Queue.md",
     "Excalidraw/SpringBootProject-Level-2.excalidraw.md",
-    "Excalidraw/SpringBootProject-Level-1.excalidraw.md",
-    "Excalidraw/Spring-Security.excalidraw.md",
-    "Excalidraw/Kafka-Failure-2.excalidraw.md",
+    "Excalidraw/SpringBootProject-Level-1.5.excalidraw.md",
     "Excalidraw/Kafka-Architecuture.excalidraw.md",
-    "Excalidraw/JDBC.excalidraw.md",
-    "Excalidraw/HLD.excalidraw.md",
-    "Microservice.md",
-    "Microservice-1-Introduction.md",
-    "Microservice-8-Observability-Logs-Metrics-Traces.md",
-    "Microservice-Reference-2026.md",
+    "Excalidraw/Spring-Security.excalidraw.md",
+    "Excalidraw/Drawing 2026-09-12 18.32.33.excalidraw.md",
+    "DailyNote/2026-09-11.md",
+    "DailyNote/2026-09-12.md",
+    "Java-Production-Memory-StackOverFlowError.md",
+    "Java-Production-Memory-OutOfMemoryError.md",
+    "Java-Production-Guide.md",
+    "Interview-Java Spring Boot Interview Experience.md",
+    "Java 8-11-17-21-25.md",
+    "Java-JPA-EntityManager and Session.md",
+    "Java-Misceallanous.md",
+    "Java-Polymorphism-1.md",
+    "Java-RecordClass.md",
+    "Kafka-2a-Microservice.md",
+    "Kafka-4-Reliability.md",
+    "kafka-5a-Question.md",
+    "Kafka-6-Crash.md",
+    "Kafka-2b1-Architecture-Overview.md",
+    "Kafka-1.md",
+    "Kafka.md",
     "Spring-Security-Flow.png",
     "Images/Spring-Security-Flow.png",
     "Images/Spring-AOP-Advice.png",
@@ -194,18 +206,6 @@
     "Spring-AOP-Advice.png",
     "Spring-AOP.png",
     "Java8-11-17-21.png",
-    "Untitled.md",
-    "Untitled 1.md",
-    "Untitled 2.md",
-    "Spring-Security.md",
-    "Excalidraw/Spring-Security-JWT.excalidraw.md",
-    "Interview-Resource.md",
-    "Interview-TechMahindra-2026.md",
-    "_inbox.md",
-    "DailyNote/2026-09-09.md",
-    "Java 8-11-17-21-25.md",
-    "Kafka-2b1-Architecture-Overview.md",
-    "Kafka-1.md",
     "!obsidian_to_pdf_24.py",
     "obsidian_to_pdf_24.py",
     "Images/Kafka-ACK-ISR.png",
@@ -218,7 +218,6 @@
     "_zzzzzzzzVS-Code_NoSuggestion.code-workspace",
     "_VS-Code_NoSuggestion copy.code-workspace",
     "1-Interview Past/2025-Me/2025",
-    "Excalidraw/Scripts/Downloaded",
     "Untitled.canvas"
   ]
 }

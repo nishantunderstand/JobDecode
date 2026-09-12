@@ -14,23 +14,24 @@ Monolithic
 - Cons : Large Codebase, Tight Coupling , Scaling is coarse-grained, Deployment Coupling, Technology Coupling
   
 Microservice
-1. Advantage : Independent Deployable, Independent Scaling, Fault Isolation, Team Independence,Technology Independence,
-2. Disadvantage : Network Complexity, Distributed Transaction, Distributed Debugging,Operational Complexity
+1. Advantage : 
+   Independent Deployable, Independent Scaling, Fault Isolation, Team Independence,Technology Independence,
+2. Disadvantage : 
+   Network Complexity, Distributed Transaction, Data Consistency Distributed Debugging, Operational Complexity 
 
 
 Monolithic Vs Microservice
-Deployment
-Network Calls
-Transaction Management
-Coupling 
-Scalability
-Codebase
-Debugging
+1. Deployment
+2. Network Calls
+3. Transaction Management
+4. Coupling 
+5. Scalability
+6. Codebase
+7. Debugging
 
 
 Why migrate Monolithic to Microservice ?
 Independent Scaling , Independent Deployment , Team Scalability , Reduce Organizational Coupling , Fault Isolation
-
 
 
 Parameter of Judgment :

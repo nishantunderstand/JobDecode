@@ -2,9 +2,6 @@
 - Use STAR Framework 
 - Use First Principle to understand the Question
 
-
-
-
 - [x] OutOfMemoryError
 - [ ] DeadLockInProduction
 - [ ] SlowAPIAndNPlue1Query
@@ -12,10 +9,6 @@
 - [ ] ConcurrentModificationInException
 - [ ] GCOverhead
 - [ ] CORS401And403Error
-
-
-
-
 
 Java-Production-OutOfMemoryError
 I am looking for a mental Model
