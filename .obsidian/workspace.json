@@ -4,17 +4,19 @@
     "type": "split",
     "children": [
       {
-        "id": "95359079e13a4c63",
+        "id": "6fd201b72f9b523a",
         "type": "tabs",
         "children": [
           {
-            "id": "4100afc069acc457",
+            "id": "7d7075c7f18a04ab",
             "type": "leaf",
             "state": {
-              "type": "empty",
-              "state": {},
-              "icon": "lucide-file",
-              "title": "New tab"
+              "type": "excalidraw",
+              "state": {
+                "file": "Excalidraw/Spring_2_Security.excalidraw.md"
+              },
+              "icon": "excalidraw-icon",
+              "title": "Spring_2_Security.excalidraw"
             }
           }
         ]
@@ -74,7 +76,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 327.5
+    "width": 327.5,
+    "collapsed": true
   },
   "right": {
     "id": "3a72b6a7926b8e9e",
@@ -152,7 +155,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 244.5
+    "width": 244.5,
+    "collapsed": true
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -165,16 +169,20 @@
       "obsidian-excalidraw-plugin:New drawing": false
     }
   },
-  "active": "4100afc069acc457",
+  "active": "7d7075c7f18a04ab",
   "lastOpenFiles": [
+    "Excalidraw/Kafka-Architecuture.excalidraw.md",
+    "Excalidraw/Spring_2_Security.excalidraw.md",
+    "Excalidraw/Spring_1_Project_L1.excalidraw.md",
+    "Pasted Image 20260915002332_923.png",
+    "Excalidraw/Kafka-Failure-2.excalidraw.md",
+    "Excalidraw/Spring_1_Project_L2_Verify_Needed.excalidraw.md",
+    "Pasted Image 20260914235816_489.png",
     "_inbox.md",
-    "Excalidraw/SpringBootProject-Level-1.0.excalidraw.md",
+    "z1a.md",
     "Java Priority Queue-1.txt",
     "Java Priority Queue.md",
-    "Excalidraw/SpringBootProject-Level-2.excalidraw.md",
     "Excalidraw/SpringBootProject-Level-1.5.excalidraw.md",
-    "Excalidraw/Kafka-Architecuture.excalidraw.md",
-    "Excalidraw/Spring-Security.excalidraw.md",
     "Excalidraw/Drawing 2026-09-12 18.32.33.excalidraw.md",
     "DailyNote/2026-09-11.md",
     "DailyNote/2026-09-12.md",
@@ -191,9 +199,6 @@
     "Kafka-4-Reliability.md",
     "kafka-5a-Question.md",
     "Kafka-6-Crash.md",
-    "Kafka-2b1-Architecture-Overview.md",
-    "Kafka-1.md",
-    "Kafka.md",
     "Spring-Security-Flow.png",
     "Images/Spring-Security-Flow.png",
     "Images/Spring-AOP-Advice.png",
@@ -204,8 +209,6 @@
     "!obsidian_to_pdf_24.py",
     "obsidian_to_pdf_24.py",
     "Images/Kafka-ACK-ISR.png",
-    "Images/Docker-Data-Persitent.png",
-    "Images/Docker-Container-vs-Virtual.png",
     "Container-LifeCycle.png.~tmp",
     "Docker-Architecture.png.~tmp",
     "Pasted image 20260907235836.png.~tmp",
