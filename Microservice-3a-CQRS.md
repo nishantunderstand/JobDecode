@@ -1,7 +1,6 @@
 👈👈👈👈👈
 CQRS — Command Query Responsibility Segregation
 
-
 COMMAND → changes data 
 QUERY → reads data
 

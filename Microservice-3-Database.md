@@ -1,8 +1,6 @@
-
 Architectural Style 
 1. Monolithic
 2. Microservice
-
 
 Types : 
 1. Schema per Service Design Pattern  

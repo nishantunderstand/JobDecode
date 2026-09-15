@@ -17,42 +17,26 @@ Types 👈👈👈👈👈
 	Camunda
 	Central Coordinator
 
----
-
 Compensating Transaction
 
----
-
+ACID Vs BASE 
 
 ACID : Use ACID within a single microservice where all operations are on the same database.
 BASE : Use BASE between multiple microservices.
 
-👈👈👈👈👈
 A → Atomicity 
 C → Consistency 
-I → Isolation 
+I  → Isolation 
 D → Durability
 
 B A → Basically Available
 S → Soft State
 E → Eventual Consistency
 
-
-ACID Vs BASE 
-
-
----
-
-
-
-
----
-
-
 How to Handle Distributed Transactions?
 1. SAGA Pattern
-   +-- Choreography
-   +-- Orchestration
+	1. Choreography
+	2. Orchestration
 2. Eventual Consistency
 3. Compensating Transactions
 4. Transactional Outbox Pattern
@@ -61,14 +45,13 @@ How to Handle Distributed Transactions?
 7. Avoid Distributed Locking
 8. Usually Avoid 2 Phase Commit
 
-----
-
-
 2 Phase Commit 
 2PC
 1. Prepare
 2. Commit
 
+https://www.youtube.com/watch?v=d2z78guUR4g
+- Watch Video for 2 Phase Commit
 
 3 Phase Commit
 
@@ -77,8 +60,5 @@ How to Handle Distributed Transactions?
 2. PreCommit
 3. DoCommit
 
-Are they really used or not ?
-
-----
-
+Are they really used or not ?  🤔🤔🤔 
 Transactional Outbox Pattern 🤔🤔🤔 
