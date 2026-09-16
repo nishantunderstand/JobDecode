@@ -25,4 +25,5 @@ Client -Flipkart (Third party payroll)
 	}
 	 What will happen inside JVM? Stack, heap? Will they stay inside the stack/ heap or where will they go after execution? 
 	What will happen to the object inside the heap after execution?
-21. {1, 0, 1, 0, 0, 1, 0, 1 } push all zero to end22.  Find middle node - LinkedList problem
+21. {1, 0, 1, 0, 0, 1, 0, 1 } push all zero to end
+22.  Find middle node - LinkedList problem

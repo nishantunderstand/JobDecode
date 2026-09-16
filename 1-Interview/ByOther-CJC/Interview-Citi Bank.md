@@ -1,9 +1,5 @@
-
-
-
 I recently attended an interview for a Senior Java Developer role at Citi Bank.
 I wanted to share my experience along with the questions that were asked.
- 
 1. What is Kafka?
 2. What are zookeeper, broker and topic?
 3. How to manage the order of messages if a message is posted in two topics and one consumer is reading from both topics?
@@ -24,6 +20,4 @@ I wanted to share my experience along with the questions that were asked.
 16. What is a checked Exception? advantage & disadvantage.
 17. What is an effective final in Java?
 18. What is the CQRS design pattern?
-
 If anyone is preparing for Java Backend Developer interviews, these questions might be helpful.
-

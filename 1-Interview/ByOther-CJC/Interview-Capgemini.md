@@ -1,8 +1,5 @@
-
-
 I recently attended an interview for a Java Backend Developer role at TCS and Capgemini. 
 I wanted to share my experience along with the questions that were asked.
-
 1. Diff between synchronized keyword and Reentrant Lock. What is a trade-off?
 2. HirakiCP, what is it?
 3. What is a volatile keyword?
@@ -24,12 +21,4 @@ I wanted to share my experience along with the questions that were asked.
 19. Load Balancer Policies scenario - if 3 instances are running, how to check which is available to post messages?
 20. Write a query to fetch all employees who have a salary more than the average of all employees' salaries.
 21. Find the first unique character, and its index. ex- String input = ‘hackathon’;
-
 If anyone is preparing for Java Backend Developer interviews, these questions might be helpful.
-
-
-
-
-
-
-

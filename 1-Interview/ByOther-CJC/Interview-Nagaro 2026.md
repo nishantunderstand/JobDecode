@@ -1,5 +1,4 @@
 Interview Nagaro 2026
-
 Basic core java 
 Spring boot
 Oops 

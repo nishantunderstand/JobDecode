@@ -1,13 +1,40 @@
+Altimatrik
+Java Backend developer -  Altimatrik
+Spring Boot
+How does a Spring Boot application start internally?
+What happens internally when we hit a REST API URL?
+What does @ComponentScan do?
+What is the scope of a Spring Boot bean?
+How do you handle exceptions in Spring Boot?
+How do you handle cascade failures in Spring Boot/microservices?
+If API latency increases significantly, how would you troubleshoot it?
+Java / Core Java
+8. Difference between HashMap and ConcurrentHashMap.
+9. Difference between ReentrantLock and synchronized.
+10. What is encapsulation?
+11. If encapsulation hides data, can outside classes still access it? How?
+12. How is stack memory cleared?
+13. Difference between Heap and Stack memory.
+14. Explain Metaspace.
+15. Explain more about Java Garbage Collection.
+Database
+16. What is indexing, and why do we need it?
+Redis / Distributed Systems
+17. What data types are supported by Redis?
+18. Difference between replication and partitioning.
+19. How does a Kafka producer know which partition to send data to?
+Coding question
+longest substring non repeating characters
+----
+> Remove Duplicate Later
+---
 Interview Altimetrik
-
 reverse sort the array of strings and each string in that array should also be reversed
 frequency of each character in a long string should print in the format of a map
 put even and odd in two separate lists, i used filter he wanted partioning by🥲
-
 10 minutes two stream questions: 
 1. count employees by department wise 
 2. find second highest salary from each department
-
 Questions asked here in Altimetrik second time:
 What are records?Does records have hashcode or equals methods
 Method hiding in java? Implement it?
@@ -20,13 +47,10 @@ How would you handle Cascading failures of Microservices
 How would you handle observability of microservices
 HATEOAS 🤔🤔🤔 
 You have a microservices and suddenly there is increase in traffic
-
 Stream questions
-
 // Find the following details
 // - count of employees (each department)
 // - name and age of youngest employee (each department)
-
 Stream Question:
 Count employees by each department 🤔🤔🤔 
 second highest salary from a list which has duplicate entries 🤔🤔🤔 
@@ -39,9 +63,5 @@ sql- second highest salary from the table 🤔🤔🤔
 if two threads are trying to access same hashmap and do changes over it what could be the error,  how cocurrent hahsmap helps here
 in one word are hashmap thread safe
 what has changed in hashmap  in java8 then previous versions
-
 Monolith to Microservices architecture why and where? for reseliency did you implemented any pattern
 Whats HateOS? 🤔🤔🤔 
-
-
-

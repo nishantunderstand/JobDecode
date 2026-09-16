@@ -1,5 +1,4 @@
 Interview NTT DATA  - 4+YOE - Java(Kong) Developer 
-
 1. Runnable and Callable. 
 2. When do we use Runnable and When do we use callable?
 3. What does callable return?

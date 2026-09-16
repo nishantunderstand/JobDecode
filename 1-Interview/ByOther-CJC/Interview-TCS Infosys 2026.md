@@ -1,7 +1,5 @@
 Interview LinkedIn 2026
-
 🚀 Most Frequently Asked Scenario-Based Questions for Senior Java Developer Roles
-
 1. Suppose you have 3 microservices: A, B, and C. A posts a message to a Kafka topic of B. How does Microservice B consume the message and post it to the REST API endpoint of Microservice C?
 2. How do we post a message to a REST API endpoint, and what is the difference between HttpClient and RestTemplate?
 3. What is the difference between CrudRepository and JpaRepository?
@@ -27,11 +25,4 @@ Interview LinkedIn 2026
 23. How does Spring Boot handle profile-specific configuration?
 24. How does Spring Boot manage dependency versions internally?
 25. How does Spring Boot handle externalized configuration?
-
 If anyone is preparing for Java Backend Developer interviews, these questions might be helpful.
-
-
-
-
-
-
