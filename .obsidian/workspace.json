@@ -4,22 +4,17 @@
     "type": "split",
     "children": [
       {
-        "id": "c9877bb897985197",
+        "id": "c531f60d4eb4bd35",
         "type": "tabs",
         "children": [
           {
-            "id": "44af8e4351347abd",
+            "id": "b390183733035139",
             "type": "leaf",
             "state": {
-              "type": "markdown",
-              "state": {
-                "file": "1-Interview/ByOther-CJC/Other-Miscellanous.md",
-                "mode": "source",
-                "source": false,
-                "backlinks": false
-              },
+              "type": "empty",
+              "state": {},
               "icon": "lucide-file",
-              "title": "Other-Miscellanous"
+              "title": "New tab"
             }
           }
         ]
@@ -54,7 +49,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "tag:kafka",
+                "query": "file:Microserivice",
                 "matchingCase": true,
                 "explainSearch": false,
                 "collapseAll": true,
@@ -79,7 +74,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 327.5
+    "width": 327.5,
+    "collapsed": true
   },
   "right": {
     "id": "3a72b6a7926b8e9e",
@@ -171,54 +167,53 @@
       "obsidian-excalidraw-plugin:New drawing": false
     }
   },
-  "active": "44af8e4351347abd",
+  "active": "b390183733035139",
   "lastOpenFiles": [
-    "1-Interview/ByOther-CJC/Delhivery.md",
-    "1-Interview/ByOther-CJC/Other-Miscellanous.md",
-    "1-Interview/ByOther-CJC/Optum.md",
-    "1-Interview/ByOther-CJC/MasterCard.md",
-    "1-Interview/ByOther-CJC/Logixal.md",
-    "1-Interview/ByOther-CJC/Interview-Deloite.md",
-    "1-Interview/ByOther-CJC/Interview-TechMahindra.md",
-    "1-Interview/ByOther-CJC/HCL.md",
-    "1-Interview/ByOther-CJC/EY.md",
-    "1-Interview/ByOther-CJC/IntraEdge.md",
-    "1-Interview/ByOther-CJC/Interview-JPMorgan.md",
-    "1-Interview/ByOther-CJC/Cognizant.md",
-    "1-Interview/ByOther-CJC/Interview-Altimetrik.md",
-    "1-Interview/ByOther-CJC/Interview-Flipkart.md",
-    "1-Interview/ByOther-CJC/Interview-Oracle.md",
-    "Microservice-2-Communication.md",
-    "DailyNote/2026-09-16.md",
-    "Microservice-3_-Transaction.md",
+    "Excalidraw/Spring-MVC-Project_L1.excalidraw.md",
+    "Excalidraw/Spring-Security.excalidraw.md",
+    "Pasted Image 20260917001547_955.png",
+    "Pasted Image 20260917001329_217.png",
+    "Excalidraw/Spring_1_Project_L2_Verify_Needed.excalidraw.md",
+    "Excalidraw/Study-Zone.md",
+    "Spring-MVC-3.png",
+    "Spring-MVC-4.png",
+    "_inbox.md",
+    "Excalidraw/A/outbox-pattern(1).excalidraw",
+    "Excalidraw/A/outbox-pattern(1) (1).excalidraw",
+    "Excalidraw/A",
+    "Excalidraw/New folder",
+    "Microservice-3_Transaction.md",
     "Microservice-3-Database.md",
-    "Microservice-1-Introduction.md",
+    "Microservice-2-Communication.md",
     "Images/Microservice-Communication-Ways.png",
+    "Microservice-1-Introduction.md",
     "Microservice.md",
-    "KM Logo.md",
-    "Kafka-2a-Microservice.md",
-    "Kafka-2b1-Architecture-Overview.md",
-    "Images/Microservice-Communication-Ways.png.~tmp",
-    "Microservice-3a-CQRS.md",
-    "Kafka-2b2-Architecture-2.md",
+    "Excalidraw/A/Spring-Project-Shared.excalidraw",
+    "Excalidraw/A/Spring-Security-Shared.excalidraw",
+    "Excalidraw/A/Spring-Security-Shared.excalidraw.txt",
+    "Excalidraw/A/Spring-Project-Shared.excalidraw.txt",
+    "Excalidraw/A/!Testing-Web.restored.excalidraw",
+    "Excalidraw/Kafka-Architecuture.excalidraw.md",
+    "Excalidraw/JDBC.excalidraw.md",
+    "Excalidraw/HLD.excalidraw.md",
+    "Excalidraw/A/Untitled-2026-08-25-1204.excalidraw.crswap",
+    "Excalidraw/A/Spring_1_Project_L2_Verify_Needed.excalidraw.md",
+    "Excalidraw/A/Spring_1_Project_L1.excalidraw.md",
+    "Excalidraw/A/Kafka-Failure-2.excalidraw.md",
+    "Excalidraw/A/Kafka-Failure-1.excalidraw.md",
+    "Excalidraw/A/Kafka-Architecuture.excalidraw.md",
+    "Excalidraw/A/JDBC.excalidraw.md",
+    "Excalidraw/A/HLD.excalidraw.md",
+    "Excalidraw/A/Spring_2_Security.excalidraw.md",
+    "Excalidraw/A/Spring_2_Security (8).md",
+    "Excalidraw/A/Spring_2_Security (7).md",
+    "Excalidraw/A/Spring_2_Security (6).md",
+    "Excalidraw/A/Spring_2_Security (5).md",
+    "Spring-MVC-2.png",
+    "Spring-MVC-1.jpeg",
+    "Pasted Image 20260916145156_293.png",
     "Images/Docker-Architecture.png",
     "Images/Spring-MVC-Request-Context.png",
-    "Images/Spring-MVC-Controller.png",
-    "Images/Spring-Filter-vs-Interceptor.png",
-    "Images/N-Tier-Architecture.png",
-    "Images/HTTP-Request.png",
-    "Images/Spring-Project-End-To-End.png",
-    "HTTP-Request.png",
-    "Spring-MVC-Request-Context.png",
-    "carbon.png.~tmp",
-    "Java Priority Queue-1.txt",
-    "!obsidian_to_pdf_24.py",
-    "obsidian_to_pdf_24.py",
-    "Container-LifeCycle.png.~tmp",
-    "Docker-Architecture.png.~tmp",
-    "Pasted image 20260907235836.png.~tmp",
-    "zzzzzzzzVS-Code_NoSuggestion.code-workspace",
-    "_zzzzzzzzVS-Code_NoSuggestion.code-workspace",
     "Untitled.canvas"
   ]
 }

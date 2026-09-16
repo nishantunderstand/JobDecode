@@ -3,16 +3,15 @@ Architectural Style 
 2. Microservice
 3. Modular Monolithic (2026*)
 
-Parameter of Judment 
+Parameter of Judgment 
 1. Independent Scaling 
 2. Independent Deployment 
 3. Fault Isolation 
-4. System Size
-5. Team Size
-6. Deployment Independence
-7. Scaling Requirements
-8. Business Boundaries
-9. Operational Maturity
+4. Team Size
+5. Deployment Independence
+6. Scaling Requirements
+7. Business Boundaries
+8. Operational Maturity
 
 Monolithic 
 - Pro  : Simple to Develop, Simple to Deploy,Easy Local Debugging, Easier Transaction,Low Network Overhead
