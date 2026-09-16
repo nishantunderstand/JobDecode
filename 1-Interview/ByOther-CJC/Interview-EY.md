@@ -1,8 +1,12 @@
 Backend Developer position at one of the companies.																									
 The process was quite structured and covered multiple technical areas across different rounds.																									
-Here’s a detailed list of actual interview questions asked during each round 👇																									
+
+Here’s a detailed list of actual interview questions asked during each round 
+👇																									
+
 🔹 1st Round – Technical Discussion																									
 _______________																									
+
 1. Introduce yourself and explain your project.																									
 2. What is Fetch Type (Lazy vs Eager Loading)?																									
 3. Explain and implement the Factory Design Pattern (with some modifications).																									
@@ -10,14 +14,17 @@ _______________
 5. What do you know about ISO8583?																									
 6. Difference between IOC and Dependency Injection																									
 7. What is Dependency Injection and its types?																									
+
 🔹 2nd Round – Coding																									
 _______________																									
+
 1. 5 MCQs on Spring Boot																									
 2. Modify and improve the given code																									
 3. Find the second highest number in an array																									
 4. Find a file in a subdirectory																									
 🔹 3rd Round – Advanced Technical																									
-_______________																									
+_______________		
+
 1. How have you used Spring Security in your project?																									
 2. What is a Spring Boot profile, and how did you use it?																									
 3. What is exception handling, and what is an advisor?																									
@@ -31,6 +38,10 @@ _______________
 EY Interview Experience | Java Developer 🚀																									
 Recently attended an interview with EY for a Java Developer role and wanted to share some of the questions and topics that were discussed.																									
 The interview covered a wide range of areas, including Java fundamentals, Spring Boot, Microservices, AWS, DevOps, and project experience.																									
+
+---
+
+
 🔹 Introduction & Project Discussion																									
 The round started with a discussion about:																									
 • Brief introduction about myself																									
@@ -38,6 +49,7 @@ The round started with a discussion about:
 • Tech stack used																									
 • Roles and responsibilities																									
 • Project architecture and implementation																									
+
 🔹 Spring & Microservices																									
 Some of the questions discussed were:																									
 • Difference between Spring and Spring Boot																									
@@ -51,12 +63,14 @@ Some of the questions discussed were:
 • Monolithic vs Microservices architecture																									
 • How does @Transactional work?																									
 • How do microservices communicate with each other?																									
+
 🔹 Core Java																									
 • What is the volatile keyword?																									
 • What is the use of volatile?																									
 • What are abstraction and polymorphism?																									
 • Difference between encapsulation and abstraction																									
 • Difference between Spring, Spring Boot, JPA, and Hibernate																									
+
 🔹 AWS & DevOps																									
 • How do you deploy a service in a serverless environment?																									
 • What is EC2, and how do you create an EC2 instance?																									
@@ -67,6 +81,7 @@ Some of the questions discussed were:
 • How do you configure a Dockerfile?																									
 • Have you written Jenkins pipelines?																									
 • How do you configure SonarQube?																									
+
 🔹 Behavioral Questions																									
 • What is your strength?																									
 • What is your weakness?																									

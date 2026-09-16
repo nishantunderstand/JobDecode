@@ -1,4 +1,5 @@
 Interview experience at datatex.
+
 1. Difference between arraylist and linkedlist.
 2. What is N+1 problem and did you encounter it and how did you tackle it?
 3. How do you handle timezones in Java?

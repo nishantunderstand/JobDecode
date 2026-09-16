@@ -1,38 +1,39 @@
 TECH MAHINDRA 
-4 YOE
-L2
-Java Memory Model?
-Heap vs Stack?
-What are all the memory spaces in JVM?
-Virtual thread vs normal thread, why virtual thread is faster?
-If child class is overriding a method, what all rules it needs to follow apart from same method name and arguments?
-How does CopyOnWriteArrayList work internally?
-How does ConcurrentHashMap work internally?
-Lock vs synchronized?
-ReentrantLock vs ReentrantReadWriteLock, how internally they are different?
-Why should we use finally after acquiring a lock?
-Find second highest salary employee for each department, SQL and Stream both.
-What happens internally when we start a Spring Boot application?
-How does transaction work internally in Spring?
-What is self-invocation in Spring?
-Explain Kafka architecture and important Kafka terms.
-Producer produces a message but broker dies what happens?
-What happens if one Kafka broker goes down?
-What is replication in Kafka and how does it work?
-What happens if consumer dies while processing a message?
-More partitions and less consumers what happens?
-More consumers and less partitions what happens?
-Consumer in same group vs consumer in different group?
-How is Kafka offset managed?
-How to achieve at least once guarantee without duplicate processing?
-What is KStream?
-KStream vs KTable?
-How does CI/CD pipeline work in your project?
-Count subset with sum K.
+4 YOE L2
+- Java Memory Model?
+- Heap vs Stack?
+- What are all the memory spaces in JVM?
+- Virtual thread vs normal thread, why virtual thread is faster?
+- If child class is overriding a method, what all rules it needs to follow apart from same method name and arguments?
+- How does CopyOnWriteArrayList work internally?
+- How does ConcurrentHashMap work internally?
+- Lock vs synchronized?
+- ReentrantLock vs ReentrantReadWriteLock, how internally they are different?
+- Why should we use finally after acquiring a lock?
+- Find second highest salary employee for each department, SQL and Stream both.
+- What happens internally when we start a Spring Boot application?
+- How does transaction work internally in Spring?
+- What is self-invocation in Spring?
+- Explain Kafka architecture and important Kafka terms.
+- Producer produces a message but broker dies what happens?
+- What happens if one Kafka broker goes down?
+- What is replication in Kafka and how does it work?
+- What happens if consumer dies while processing a message?
+- More partitions and less consumers what happens?
+- More consumers and less partitions what happens?
+- Consumer in same group vs consumer in different group?
+- How is Kafka offset managed?
+- How to achieve at least once guarantee without duplicate processing?
+- What is KStream?
+- KStream vs KTable?
+- How does CI/CD pipeline work in your project?
+- Count subset with sum K.
+
 ---
 > Duplicate Later
 > ---
 > 
+
 Interview TechMahindra
 1] Suppose you have added @Transactional, but still data is partially saved when an exception happens. How will you debug and fix it?
 2] when your Spring Boot application is working fine in normal traffic, but during high traffic the response time becomes very slow. How will you find the root cause?

@@ -1,5 +1,6 @@
 I recently attended an interview for a Senior Java Developer role at Citi Bank.
 I wanted to share my experience along with the questions that were asked.
+
 1. What is Kafka?
 2. What are zookeeper, broker and topic?
 3. How to manage the order of messages if a message is posted in two topics and one consumer is reading from both topics?

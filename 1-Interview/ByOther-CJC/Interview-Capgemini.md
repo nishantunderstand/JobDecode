@@ -1,5 +1,6 @@
 I recently attended an interview for a Java Backend Developer role at TCS and Capgemini. 
 I wanted to share my experience along with the questions that were asked.
+
 1. Diff between synchronized keyword and Reentrant Lock. What is a trade-off?
 2. HirakiCP, what is it?
 3. What is a volatile keyword?

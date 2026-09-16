@@ -1,23 +1,29 @@
 🚀 Recently Attended an Interview at Logixal – Sharing My Experience																									
 I recently attended an interview at Logixal for a Java Developer role, and the overall interview process focused heavily on Java fundamentals, Spring Boot, APIs, project experience, and practical implementation.																									
 Here’s a quick breakdown of the rounds 👇																									
+
 ☑️ Round 1 – Technical Assessment																									
 The assessment included:																									
 • Java + Spring Boot MCQs																									
+
 • Two coding problems:																									
 1️⃣ An Array-based problem																									
 2️⃣ An API-related problem																									
 ☑️ Round 2 – Technical Interview																									
+
 The discussion mainly revolved around my technical skills, project experience, and backend fundamentals.																									
+
 Some of the questions included:																									
 • Introduction – technical skills, experience, and projects																									
 • Explain your project and the features you worked on																									
 • End-to-end API communication flow																									
 • CRUD operations – GET, POST, PUT, DELETE																									
 • Spring Boot annotations:																									
+
 @RequestMapping																									
 @RestController																									
 @Autowired																									
+
 • What is the entry point of a Spring Boot application?																									
 • How have you used OOP concepts in real-world projects?																									
 • Java Collections Framework – List, Set, and Map																									
@@ -30,6 +36,7 @@ Some of the questions included:
 • How does Spring identify GET, POST, PUT, and DELETE requests?																									
 • Which database have you used?																									
 • What types of queries have you written in your project?																									
+
 ☑️ Round 3 – Client Interview																									
 This round focused more on architecture, responsibilities, real-world scenarios, and problem-solving.																									
 Questions included:																									
