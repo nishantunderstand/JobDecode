@@ -227,8 +227,3 @@ Primarily focused on **Cloud concepts** like:
 Overall, it was a great learning experience with deep technical discussions across **Java, Spring Boot, Microservices, Cloud, DevOps, and AI**.
 
 Hope this helps anyone preparing for Accenture or similar full-stack roles. Happy to connect and discuss preparation strategies 🙂
-
-
-
-
-
