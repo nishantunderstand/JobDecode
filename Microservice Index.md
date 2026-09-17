@@ -1,13 +1,18 @@
 [[Microservice]]
-[[Microservice-1-Introduction]]
-[[Microservice-2-Communication]]
-[[Microservice-3_-Transaction]]
-[[Microservice-3-Database]]
-[[Microservice-3a-CQRS]]
-[[Microservice-3b-EventSourcing]]
-[[Microservice-3c-CDC]]
-[[Microservice-4-Scaling]]
-[[Microservice-5-APIGateway]]
+
+[[Microservice Introduction]]
+
+[[Microservice Communication Protocols]]
+[[Microservice Transaction 2PC SAGA Outbox Pattern]]
+
+[[Microservice Database]]
+[[Microservice Database CQRS]]
+[[Microservice Database EventSourcing]]
+[[Microservice Database CDC]]
+
+[[Microservice Scaling]]
+
+[[Microservice APIGateway]]
 [[Microservice-6-ResilenceLibrary]]
 [[Microservice-6a-CircuitBreaker]]
 [[Microservice-6b-CircuitBreaker-Coding]]

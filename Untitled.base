@@ -1,3 +1,25 @@
 views:
   - type: table
     name: Table
+    order:
+      - file.name
+      - file.backlinks
+      - file.ctime
+      - file.embeds
+      - file.ext
+      - file.folder
+      - file.links
+      - file.mtime
+      - file.size
+      - file.tags
+      - excalidraw-plugin
+      - layout
+      - tags
+      - title
+    sort:
+      - property: layout
+        direction: DESC
+      - property: tags
+        direction: ASC
+      - property: file.size
+        direction: ASC

@@ -2,41 +2,18 @@ Architectural Style 
 1. Monolithic
 2. Microservice
 
-API Gateway
-
-It handles 
-routing, 
-authentication, 
-logging, monitoring, 
-rate limiting, API versioning, and load balancing.
-
 Why API Gateway
 
 API Gateway vs Direct client-to-service communication
 Centralized Entry Point
 
-
----
-Types : 
-1. Client Side Gateway
-2. Server Side Gateway
-
----
-
-
-
-Popular API Gateway Products
-OpenSource: 
-1. Kong
-2. NGINX
-3. Spring Cloud Gateway
-
-Enterprise
-1. Apigee
-
+It handles 
+1. routing
+2. authentication
+3. logging monitoring
+4. rate limiting API versioning and load balancing.
 
 Cross-Cutting Concern :
-
 A. Traffic Management
 1. Routing
 2. Load Balancing
@@ -61,48 +38,27 @@ D. Observability
 2. Metrics
 3. Distributed Tracing
 
----
-
-Routing
-```
-/api/users/** 
-/api/orders/** 
-/api/payments/**
+>North-South = traffic entering/leaving your system.
+>East-West = traffic between services inside your system.
 
 
-/api/users/**     → User Service
-/api/orders/**    → Order Service
-/api/payments/**  → Payment Service
+Types :
+1. Client Side Gateway
+2. Server Side Gateway
 
-```
+Popular API Gateway Products
+OpenSource: 
+1. Kong
+2. NGINX
+3. Spring Cloud Gateway
 
----
-
-
-Should Authentication/Authorization at APIGateway or before Service ?
-Why not put authentication inside every microservice?
-What about downstream stream ?
-
-Gateway authentication does not mean downstream services should blindly trust every request.
-For sensitive operations, services can independently validate identity/authorization.
-
-401 vs 403 Trap
-
----
-
-Why Rate Limit at Gateway?
+Enterprise
+1. Apigee
 
 Single Point of Failure
 Can API Gateway and Load Balancer be used together?
 API Gateway vs Load Balancer
 LoadBalancer + Scaling 
-
-Rate Limiting Algorithm
-1. Fixed Window
-2. Sliding Winodw
-3. Token Bucket
-4. Leaky Bucket
----
 
 Is API Gateway a Single Point of Failure? 
 
@@ -121,25 +77,45 @@ API Gateway + Kubernetes : NGINX Ingress, Spring Cloud Gateway
 
 Difference Between Load Balancer and API Gateway?
 
-
 API Gateway ≠ Load Balancer
 API Gateway vs Reverse Proxy
 API Gateway vs Service Mesh
 API Gateway vs Reverse Proxy
 API Gateway vs Service Discovery
 
+# Routing
 
----
-
-North-South = traffic entering/leaving your system.
-East-West = traffic between services inside your system.
-
-
-
+```
+/api/users/** 
+/api/orders/** 
+/api/payments/**
 
 
+/api/users/**     → User Service
+/api/orders/**    → Order Service
+/api/payments/**  → Payment Service
+
+```
 
 
+Should Authentication/Authorization at APIGateway or before Service ?
+Why not put authentication inside every microservice?
+What about downstream stream ?
+
+Gateway authentication does not mean downstream services should blindly trust every request.
+For sensitive operations, services can independently validate identity/authorization.
+
+401 vs 403 Trap
+
+# RateLimiting
+
+Why Rate Limit at Gateway?
+
+Rate Limiting Algorithm
+1. Fixed Window
+2. Sliding Winodw
+3. Token Bucket
+4. Leaky Bucket
 
 
 

@@ -4,11 +4,11 @@
     "type": "split",
     "children": [
       {
-        "id": "98d86a7480772384",
+        "id": "92bccf221d11f01e",
         "type": "tabs",
         "children": [
           {
-            "id": "adf70698b909b1fd",
+            "id": "174c11c5d4a6dd10",
             "type": "leaf",
             "state": {
               "type": "empty",
@@ -51,7 +51,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "",
+                "query": "file:\"Microservice Index\"",
                 "matchingCase": true,
                 "explainSearch": false,
                 "collapseAll": true,
@@ -67,7 +67,10 @@
             "type": "leaf",
             "state": {
               "type": "bookmarks",
-              "state": {},
+              "state": {
+                "showSearch": false,
+                "searchQuery": ""
+              },
               "icon": "lucide-bookmark",
               "title": "Bookmarks"
             }
@@ -76,7 +79,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 327.5
+    "width": 336.70001220703125
   },
   "right": {
     "id": "3a72b6a7926b8e9e",
@@ -126,7 +129,7 @@
               "type": "tag",
               "state": {
                 "sortOrder": "alphabetical",
-                "useHierarchy": true,
+                "useHierarchy": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
@@ -140,21 +143,22 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "AWS.md",
-                "followCursor": false,
+                "file": "Microservice APIGateway.md",
+                "followCursor": true,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "Outline of AWS"
+              "title": "Outline"
             }
           }
         ],
-        "currentTab": 2
+        "currentTab": 3
       }
     ],
     "direction": "horizontal",
-    "width": 244.5
+    "width": 367.0999755859375,
+    "collapsed": true
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -169,35 +173,37 @@
       "omnisearch:Omnisearch": false
     }
   },
-  "active": "adf70698b909b1fd",
+  "active": "174c11c5d4a6dd10",
   "lastOpenFiles": [
-    "Microservice-3-Database.md",
+    "1-Interview/ByOther-CJC/z Other Miscellanous.md",
+    "1-Interview/ByOther-CJC/ByOther-CJC.zip",
+    "1-Interview/ByOther-CJC/Accenture.md",
+    "1-Interview/ByOther-CJC/2 Best practice.md",
+    "1-Interview/ByOther-CJC/1 Reference Resource.md",
+    "1-Interview/ByOther-CJC/Resource.md",
+    "1-Interview/ByOther-CJC/Tech Mahindra.md",
+    "1-Interview/ByOther-CJC/Nagaro.md",
+    "1-Interview/ByOther-CJC/Altimetrik.md",
+    "1-Interview/ByOther-CJC/Infosys.md",
+    "1-Interview/ByOther-CJC/Infosys 3.md",
+    "1-Interview/ByOther-CJC/Infosys 4.md",
+    "1-Interview/ByOther-CJC/Infosys 5.md",
+    "1-Interview/ByOther-CJC/Infosys 6.md",
+    "1-Interview/ByOther-CJC/Infosys 2.md",
+    "1-Interview/ByOther-CJC/Tech Mahindra 2.md",
+    "1-Interview/ByOther-CJC/Datatex.md",
+    "1-Interview/ByOther-CJC/Deloite.md",
+    "1-Interview/ByOther-CJC/EPAM.md",
+    "1-Interview/Interview-20260908-MindTree/Interview-20260908-MindTree.md",
+    "1-Test-1/2026-09-09-my-first-article.md",
+    "1-Test-1/2026-09-09-!Kubernetes-TOC.md",
+    "Microservice APIGateway.md",
+    "z1a1.md",
     "Microservice Index.md",
-    "Microservice.md",
-    "Microservice-1-Introduction.md",
-    "Microservice-2-Communication.md",
-    "Microservice-3_-Transaction.md",
-    "Microservice-3a-CQRS.md",
-    "Microservice-3b-EventSourcing.md",
-    "Microservice-3c-CDC.md",
-    "Microservice-4-Scaling.md",
-    "Microservice-5-APIGateway.md",
-    "Microservice-6-ResilenceLibrary.md",
-    "Microservice-6a-CircuitBreaker.md",
-    "Microservice-6b-CircuitBreaker-Coding.md",
-    "Microservice-7-Deployment.md",
-    "Microservice-7-RESTAPI.md",
-    "Microservice-8-Observability-Logs-Metrics-Traces.md",
-    "Microservice-8a-Logging.md",
-    "Microservice-9-ServiceDiscovery.md",
-    "Microservice-10-LoadBalancer.md",
-    "Microservice-13-Proxy.md",
-    "Microservice-DesignPatterns.md",
-    "Microservice-DesignPatterns-Classification.md",
-    "Microservice-EDA.md",
-    "Microservice-Reference-2026.md",
-    "Docker-Commands.md",
+    "Best Instagram Channel.md",
+    "Excalidraw/Database CDC.excalidraw",
     "Untitled.base",
+    "Images/Docker-Container-vs-Virtual.png",
     "Pasted Image 20260917001547_955.png",
     "Pasted Image 20260917001329_217.png",
     "Spring-MVC-3.png",
@@ -210,13 +216,10 @@
     "Excalidraw/A/Spring-Project-Shared.excalidraw",
     "Excalidraw/A/Spring-Security-Shared.excalidraw",
     "Excalidraw/A/Spring-Security-Shared.excalidraw.txt",
-    "Excalidraw/A/Spring-Project-Shared.excalidraw.txt",
-    "Excalidraw/A/!Testing-Web.restored.excalidraw",
     "Spring-MVC-2.png",
     "Spring-MVC-1.jpeg",
     "Pasted Image 20260916145156_293.png",
     "Images/Docker-Architecture.png",
-    "Images/Spring-MVC-Request-Context.png",
     "Untitled.canvas"
   ]
 }

@@ -87,7 +87,6 @@ Transactional Outbox Pattern
 2. OutBox
 
 Transactional InBox-Outbox Pattern https://www.youtube.com/watch?v=7Js-4GuNogM
-
 [Transactional-Outbox-Pattern](obsidian://open?vault=studywithme_HLD&file=Excalidraw%2FOutbox-Inbox-Pattern.excalidraw)
 
 ---

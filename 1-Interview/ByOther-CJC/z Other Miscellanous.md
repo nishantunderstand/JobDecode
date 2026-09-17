@@ -1,3 +1,47 @@
+Hi everyone, sharing some questions from a recent *Java Backend interview (1.5 YOE)*. Hopefully, these help someone preparing for interviews:
+
+### Core Java & Coding
+
+1. Why Java? Why is Java platform-independent?
+2. How do interfaces solve the multiple inheritance problem? Share screen and write code.
+3. Implement method overloading and method overriding with code.
+4. Sort an array containing 0s, 1s and 2s in a single iteration.
+5. Given an Employee class with empId, managerId and salary, find all employees whose salary is greater than their manager's salary.
+6. Find the employee with the 3rd highest salary using Java Streams.
+7. Which is faster: ArrayList or LinkedList? Explain based on different scenarios.
+
+### Spring / Spring Boot
+
+1. What are the different types of Dependency Injection? Why prefer constructor injection over field injection?
+2. Difference between @Component and @Bean.
+3. Explain the Spring Bean lifecycle.
+4. How do you write unit test cases for the Controller and Repository layers?
+5. How do you containerize a Spring Boot application using Docker?
+
+### Spring Transactions & Database
+
+1. What is @Transactional? Where and why do we use it?
+2. Explain the internal working of @Transactional in Spring.
+3. What happens internally when a transaction starts, commits and rolls back?
+4. Explain ACID properties with real-world examples.
+5. What is database indexing? How does an index improve query performance?
+6. What are the different types of database indexes?
+7. What are the different types of SQL joins? Explain INNER, LEFT, RIGHT and FULL OUTER JOIN with examples.
+8. How were database migrations handled in your project? Why do we use Flyway and how does it help with deployment?
+9. ⁠What is ThreadPool?
+
+### Security & Deployment
+
+1. Authentication vs Authorization — what's the difference?
+2. How were deployments done in your project? Explain the CI/CD process at a high level.
+
+Hope this helps anyone preparing for Java/Spring Boot interviews. All the best! 🚀
+
+
+
+
+
+
 Java Backend Developer 																									
 These 20 questions are being asked RIGHT NOW.																									
 1. How does HashMap work internally? Explain buckets, hashing & resizing.																									

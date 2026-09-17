@@ -1,7 +1,7 @@
 {
   "showRibbon": true,
   "cssTheme": "Tokyo Night",
-  "accentColor": "#2f3131",
+  "accentColor": "",
   "theme": "obsidian",
   "enabledCssSnippets": [
     "omini-search"
