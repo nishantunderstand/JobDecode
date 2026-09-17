@@ -1,8 +1,7 @@
 
 Architectural Style 
-1. Monolithic
+1. Monolithic ??
 2. Microservice
-
 
 Deployment Strategies
 1. Minimal Risk

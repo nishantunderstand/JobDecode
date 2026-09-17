@@ -1,6 +1,6 @@
 
-1. [[Kafka-Architecuture.excalidraw]]
-2. [[Kafka-Failure-1.excalidraw]]
+1. [[Kafka Architecuture.excalidraw]]
+2. [[Kafka Failure 1.excalidraw]]
 
 
 [Spring Boot + Kafka Course | Learn Apache Kafka in One Shot!](https://www.youtube.com/watch?v=gpx7smdUkgU&t=667s)  : Only Theory 

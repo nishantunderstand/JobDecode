@@ -2,7 +2,7 @@ Architectural Style 
 1. Monolithic
 2. Microservice
 
-Why API Gateway
+Why API Gateway ?
 
 API Gateway vs Direct client-to-service communication
 Centralized Entry Point

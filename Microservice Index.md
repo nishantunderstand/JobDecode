@@ -1,3 +1,4 @@
+
 [[Microservice]]
 
 [[Microservice Introduction]]
@@ -13,16 +14,24 @@
 [[Microservice Scaling]]
 
 [[Microservice APIGateway]]
-[[Microservice-6-ResilenceLibrary]]
-[[Microservice-6a-CircuitBreaker]]
-[[Microservice-6b-CircuitBreaker-Coding]]
-[[Microservice-7-Deployment]]
-[[Microservice-7-RESTAPI]]
+
+[[Microservice ResilenceLibrary Resilence4J]]
+[[Microservice ResilenceLibrary CircuitBreaker]]
+[[Microservice ResilenceLibrary CircuitBreaker Coding SpringBoot]]
+[[Microservice ResilenceLibrary RateLimiter TimeLimiter Retry]]
+[[Microservice ResilenceLibrary BulkHead Isolation]] 
+
+[[Microservice Deployment]]
+
+[[Microservice RESTAPI]]
+
 [[Microservice-8-Observability-Logs-Metrics-Traces]]
 [[Microservice-8a-Logging]]
+
 [[Microservice-9-ServiceDiscovery]]
 [[Microservice-10-LoadBalancer]]
 [[Microservice-13-Proxy]]
+
 [[Microservice-DesignPatterns]]
 [[Microservice-DesignPatterns-Classification]]
 [[Microservice-EDA]]

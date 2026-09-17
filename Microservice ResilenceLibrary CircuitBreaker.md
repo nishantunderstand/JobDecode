@@ -6,6 +6,7 @@ Circuit Breaker States
 ---
 
 AOP + Exception (Checked / Unchecked Exception)
+
 Fallback Method 
 1. Same Class
 2. Different Class
@@ -24,7 +25,6 @@ What if the original method has parameters?
 
 ---
 
-
 Can Circuit Breaker Recover Automatically ? 
 If fallback returns successfully, will the Circuit Breaker become CLOSED?
 If Circuit Opens, What User Gets?
@@ -32,11 +32,12 @@ Can We Use All Together?
 
 ---
 
-
-
 Does fallback mean retry?
 Does Circuit Breaker Fix the Downstream Service?
 Does Circuit Breaker Fix Down Service?
+
+CircuitBreaker with Exponential TimeOfff
+
   
 [https://medium.com/%40shivanimutke2501/day-43-system-design-concept-circuit-breaker-6063b3b754a6](https://medium.com/%40shivanimutke2501/day-43-system-design-concept-circuit-breaker-6063b3b754a6)
 
@@ -56,8 +57,7 @@ public String fallback(Exception ex){
 ```
 
 
-Dependency name  Maven One 👈👈👈👈👈
+Dependency name Maven One 👈👈👈👈👈
 
 Spring Boot Tool Name? resilience4j-spring-boot3
-How to enable it  SpringBoot
-
+How to enable in SpringBoot ?

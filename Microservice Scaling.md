@@ -19,9 +19,9 @@ Parameter of Judgement : 
 
 
 Manual Scaling vs Auto Scaling
+Auto Scaling Group
 
-🤔🤔🤔 How to decide whether to go for Horizontal or Vertical ?
-
+How to decide whether to go for Horizontal or Vertical ?
 
 ```
                  Traffic / Load increasing?
