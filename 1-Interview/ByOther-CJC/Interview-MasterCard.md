@@ -43,5 +43,4 @@ Focus on:
 ✔️ Clean code & design patterns																									
 ✔️ Performance optimization mindset																									
 💥 Save this post if you’re preparing																									
-💬 Comment “PREP” if you want a mock interview or detailed answers																									
-#BackendDeveloper #JavaDeveloper #SystemDesign #Kafka #Microservices #InterviewPreparation #ProductBasedCompany #SoftwareEngineer #TechInterview #CodingInterview #SpringBoot #Redis #DistributedSystems #CareerGrowth #DevelopersIndia																									
+💬 Comment “PREP” if you want a mock interview or detailed answers											

@@ -205,8 +205,9 @@ And start preparing for:
 ✅ How will you identify the root cause and prevent it from happening again?																									
 The best developers are not just those who can write code.																									
 They are the ones who can understand what happens when the code runs in the real world. 🔥																									
-Which of these scenarios have you faced in a real project or interview? Let’s discuss in the comments. 👇																									
-#Java #JavaDeveloper #SpringBoot #BackendDevelopment #Microservices #JVM #Concurrency #SystemDesign #SoftwareEngineering #InterviewPreparation #Debugging #TechCommunity																									
+Which of these scenarios have you faced in a real project or interview? Let’s discuss in the comments. 👇	
+
+
 These 20 questions separate good developers from great ones.																									
 31. How does the G1 Garbage Collector work? What are regions, and how does it decide what to collect?																									
 32. What is a memory leak in Java? Walk through how you’d detect and fix one in production.																									

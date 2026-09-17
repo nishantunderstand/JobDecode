@@ -3,19 +3,18 @@ Architectural Style 
 2. Microservice
 
 Types : 
-1. Schema per Service Design Pattern  
-2. Database per Service Design Pattern
+3. Schema per Service Design Pattern  
+4. Database per Service Design Pattern
 
 Schema per Service Design Pattern  
-Logical Isolation
-Each Service owns its schema.
-Schema level Isolation
-Cross Schema Access Risk
-Database Failure Risk
-  
+1. Logical Isolation
+2. Each Service owns its schema.
+3. Schema level Isolation
+4. Cross Schema Access Risk
+5. Database Failure Risk  
 
 Database per Service Design Pattern
-Physical Isolation
+1. Physical Isolation
 
-
+https://www.youtube.com/watch?v=DKQLhy9bgdk
 

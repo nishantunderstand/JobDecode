@@ -82,7 +82,7 @@ The interviewer expected strong backend system understanding and clean coding sk
 Result: I answered the questions at a solid mid-level depth, but they were clearly looking for someone more senior for this particular role. They mentioned they are moving forward with senior candidates, but they also encouraged me to stay positive for other opportunities and did not give a hard no.
 Sharing this in case it helps someone preparing for backend / fintech platform interviews.
 
-#Java #SpringBoot #Microservices #DistributedSystems #BackendEngineering #Fintech #InterviewPrep
+
 
 If you’re targeting a high-paying Java Backend role at a company like JPMorganChase, don’t expect interviews to be limited to basic Java definitions.
 A typical interview can cover everything from Core Java and DSA to System Design, SQL, Spring Boot, and JVM troubleshooting.
