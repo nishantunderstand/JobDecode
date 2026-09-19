@@ -174,7 +174,7 @@ Wqv9oa4c: https://medium.com/@singh.piyush/716f3a6c820a?sk=fcaa3368448c03645f8e0
 
 7499310696c3a3b171601dfa8dadbb1b23b73585: [[Spring-AOP-Advice.png]]
 
-d5f6a5157c3c6cf101fa1f379a46562e4cf26165: [[Pasted Image 20260917001329_217.png]]
+d5f6a5157c3c6cf101fa1f379a46562e4cf26165: [[Spring Boot vs AOP.png]]
 
 %%
 ## Drawing

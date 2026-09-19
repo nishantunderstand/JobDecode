@@ -6140,12 +6140,11 @@
 			"frameId": null,
 			"roundness": null,
 			"seed": 14358,
-			"version": 2,
-			"versionNonce": 968946285,
+			"version": 3,
+			"versionNonce": 432057477,
 			"isDeleted": false,
 			"boundElements": [],
-			"updated": 1786990866327,
-			"link": null,
+			"updated": 1789810855046,
 			"locked": false,
 			"text": "Follow oncalEngineers ⚙️",
 			"fontSize": 19,
@@ -6162,7 +6161,7 @@
 			"labelPosition": null,
 			"baseFontSize": null,
 			"hasTextLink": false,
-			"rawText": ""
+			"rawText": "Follow oncalEngineers ⚙️"
 		},
 		{
 			"id": "PEFv17mK",
@@ -6814,7 +6813,7 @@
 			"type": "text",
 			"x": 747.8303587153099,
 			"y": 1120.0417523835797,
-			"width": 69.84840393066406,
+			"width": 70.45893859863281,
 			"height": 52.79987598197181,
 			"angle": 0,
 			"strokeColor": "#6741d9",
@@ -7084,8 +7083,8 @@
 		"currentItemEndArrowhead": "arrow",
 		"currentItemArrowType": "round",
 		"currentItemFrameRole": null,
-		"scrollX": 868.403828573075,
-		"scrollY": -2120.1096353528274,
+		"scrollX": 198.28563957989033,
+		"scrollY": -846.0577698596113,
 		"zoom": {
 			"value": 0.604371
 		},

@@ -1,0 +1,42 @@
+
+### Database
+
+- [[JDBC]]
+- [[JDBC ConnectionPooling HikariCP]]
+- [[ORM]]
+- [[Hibernate]] 
+- [[Hibernate Cache]]
+- [[JPA]]
+- [[Spring Data JPA]]
+
+---
+- [[Spring AOP]]
+- [[Spring AOP Proxy]]
+- [[Spring AOP Transaction Management]]
+- [[Spring AOP Async]]
+---
+
+- [[Spring APIResponse]]
+- [[Spring Index]]
+- [[Spring-AI]]
+- [[Spring-Batch]]
+- [[Spring-Bean LifeCycle-1]]
+- [[Spring-Cloud]]
+- [[Spring-Core]]
+- [[Spring DesignPattern DP]]
+- [[Spring-Exception-Explain]]
+- [[Spring-Exception]]
+- [[Spring-IOC]]
+- [[Spring-Interview-Recap-1]]
+- [[Spring-JWT]]
+- [[Spring-MCQ-2]]
+- [[Spring-MCQ-3]]
+- [[Spring-MCQ-1]]
+- [[Spring-Security-1]]
+- [[Spring-Security-vs-Interceptor]]
+- [[Spring-Security]]
+- [[SpringBoot-Database]]
+- [[SpringBoot-LifeCycle]]
+- [[SpringBoot-StartUp-Time]]
+- [[SpringBoot]]
+- [[SprintBoot-Failing-Reason]]

@@ -4,25 +4,108 @@
     "type": "split",
     "children": [
       {
-        "id": "ab6bec74c97b745b",
+        "id": "b58862156001cd52",
         "type": "tabs",
+        "dimension": 32.171581769437,
         "children": [
           {
-            "id": "83e7447036e29ac0",
+            "id": "2189c667a632fb09",
+            "type": "leaf",
+            "pinned": true,
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Index Folder/Microservice Index.md",
+                "mode": "source",
+                "source": false,
+                "backlinks": false
+              },
+              "pinned": true,
+              "icon": "lucide-file",
+              "title": "Microservice Index"
+            }
+          }
+        ]
+      },
+      {
+        "id": "12c2a31114c12415",
+        "type": "tabs",
+        "dimension": 67.828418230563,
+        "children": [
+          {
+            "id": "300b7b3fae69e00e",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Spring-Exception-Explain.md",
+                "file": "!Archive/Microservice Database.md",
                 "mode": "source",
                 "source": false,
                 "backlinks": false
               },
               "icon": "lucide-file",
-              "title": "Spring-Exception-Explain"
+              "title": "Microservice Database"
+            }
+          },
+          {
+            "id": "166ebb6659d6602e",
+            "type": "leaf",
+            "state": {
+              "type": "excalidraw",
+              "state": {
+                "file": "Excalidraw/Microservice Transactional Outbox Inbox Pattern.excalidraw.md"
+              },
+              "icon": "excalidraw-icon",
+              "title": "Microservice Transactional Outbox Inbox Pattern.excalidraw"
+            }
+          },
+          {
+            "id": "593a44d765ea6006",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "!Archive/Microservice Communication Protocols.md",
+                "mode": "source",
+                "source": false,
+                "backlinks": false
+              },
+              "icon": "lucide-file",
+              "title": "Microservice Communication Protocols"
+            }
+          },
+          {
+            "id": "1e7480749c98e8c5",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "!Archive/Microservice Database CDC.md",
+                "mode": "source",
+                "source": false,
+                "backlinks": false
+              },
+              "icon": "lucide-file",
+              "title": "Microservice Database CDC"
+            }
+          },
+          {
+            "id": "771064f9432068f4",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "!Archive/Microservice Database CDC.md",
+                "mode": "source",
+                "source": false,
+                "backlinks": false
+              },
+              "icon": "lucide-file",
+              "title": "Microservice Database CDC"
             }
           }
-        ]
+        ],
+        "currentTab": 4
       }
     ],
     "direction": "vertical"
@@ -56,8 +139,8 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "file:Microservice Index",
-                "matchingCase": true,
+                "query": "file:Spring AOP",
+                "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": true,
                 "extraContext": false,
@@ -100,8 +183,8 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "AWS.md",
-                "collapseAll": false,
+                "file": "!Archive/1-Interview/ByOther-CJC/1 Reference Resource.md",
+                "collapseAll": true,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
                 "showSearch": false,
@@ -110,7 +193,7 @@
                 "unlinkedCollapsed": false
               },
               "icon": "links-coming-in",
-              "title": "Backlinks for AWS"
+              "title": "Backlinks"
             }
           },
           {
@@ -119,12 +202,12 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "AWS.md",
+                "file": "Spring-MCQ-1.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               },
               "icon": "links-going-out",
-              "title": "Outgoing links from AWS"
+              "title": "Outgoing links"
             }
           },
           {
@@ -148,8 +231,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Spring-Exception-Explain.md",
-                "followCursor": false,
+                "followCursor": true,
                 "showSearch": false,
                 "searchQuery": ""
               },
@@ -158,11 +240,11 @@
             }
           }
         ],
-        "currentTab": 2
+        "currentTab": 3
       }
     ],
     "direction": "horizontal",
-    "width": 200,
+    "width": 291.9000244140625,
     "collapsed": true
   },
   "left-ribbon": {
@@ -180,54 +262,54 @@
       "workspaces:Manage workspace layouts": true
     }
   },
-  "active": "83e7447036e29ac0",
+  "active": "771064f9432068f4",
   "lastOpenFiles": [
-    "Outbox-1.png",
-    "Excalidraw/Outbox-Inbox-Pattern.excalidraw.md",
-    "CAP Theorem.md",
-    "Microservice RESTAPI.md",
-    "README-1.md",
-    "_inbox-1.md",
-    "What happens when you enter google.com.md",
-    "UML-Person-Entity.png",
-    "UML-IS-A-HAS-A-USES-A-Relationship.png",
-    "UML-Field.png",
-    "UML-Entity.png",
-    "UML-2 Field.md",
-    "UML-1-IS-A HAS-A USES-A Inheritance Relationship.md",
-    "Type-Google-com.png",
-    "TLS.md",
-    "Thread-InHiererary.png",
-    "Thrashing.md",
-    "TCP-Layer.png",
-    "TCP-IP 3 Way HandShake.png",
-    "TCP.md",
-    "System-Design-Channel-Visual.md",
-    "System-Design-101-By-Parmeshwar Metkar.png",
-    "System-Desgin-Flow-End-To-End.png",
-    "System.md",
-    "System Design Distributed System.md",
-    "System Design 101-2.md",
-    "System Design 101-1.md",
-    "Symmetric Assymetric Key RSA.md",
-    "SSL.md",
-    "SpringBoot.md",
-    "Sharding.md",
-    "Scaling Horizontal Vertical.md",
-    "SAGA 2PC Microservice Transaction.md",
-    "Relational Model in DBMS.md",
-    "Redis.md",
-    "Process, Program and Thread.md",
+    "Index Folder/Microservice Index.md",
+    "!Archive/Microservice Database Scaling Horizontal Vertical.md",
+    "!Archive/Microservice-Reference-2026.md",
+    "!Archive/Microservice-EDA.md",
     "Excalidraw/Database CDC.excalidraw",
-    "Untitled.canvas",
-    "1-Interview/ByOther-CJC/ByOther-CJC.zip",
+    "!Archive/Microservice Database CDC.md",
+    "!Archive/Microservice Database.md",
+    "Untitled 8.md",
+    "Untitled 7.md",
+    "Untitled 6.md",
+    "!Archive/Microservice Database EventSourcing.md",
+    "!Archive/Microservice Database CQRS.md",
+    "!Archive/Microservice Transaction 2PC SAGA Outbox Pattern.md",
+    "Excalidraw/Microservice Transactional Outbox Inbox Pattern.excalidraw.md",
+    "!Archive/Microservice Communication Protocols.md",
+    "!Archive/Microservice Monolithic Microservice Pro Cons.md",
+    "Excalidraw/Study 101.excalidraw.md",
+    "Pasted Image 20260919123637_497.png",
+    "Pasted Image 20260919123628_563.png",
+    "Java JVM LifeCycle.md",
+    "Java Exception.md",
+    "Java Method.md",
+    "Untitled 3.md",
+    "Untitled 4.md",
+    "Untitled 5.md",
+    "Untitled 2.md",
+    "Untitled 1.md",
+    "Untitled.md",
     "Untitled.base",
+    "Java Modifier Access And Non-AccessModifier.md",
+    "image1.png",
+    "Pasted image 20260918200027.png",
+    "Java Constructor Copy.png",
+    "Spring Bean Proxy.png",
+    "Spring AOP Method Call.png",
+    "image1.png.~tmp",
+    "JDBC Hibernate Types of Cache.png",
+    "JDBC Hibernate LifeCycle.png",
+    "Pasted image 20260918161644.png",
+    "Index Folder",
+    "!Archive/zzzzzzzzVS-Code_NoSuggestion.code-workspace",
+    "!Archive/_VS-Code_NoSuggestion.code-workspace",
+    "!Archive",
+    "Untitled.canvas",
+    "!Archive/1-Interview/ByOther-CJC/ByOther-CJC.zip",
     "Excalidraw/A/outbox-pattern(1).excalidraw",
-    "Excalidraw/A/outbox-pattern(1) (1).excalidraw",
-    "Excalidraw/A",
-    "Excalidraw/New folder",
-    "Excalidraw/A/Spring-Project-Shared.excalidraw",
-    "Excalidraw/A/Spring-Security-Shared.excalidraw",
-    "Excalidraw/A/Spring-Security-Shared.excalidraw.txt"
+    "Excalidraw/A/outbox-pattern(1) (1).excalidraw"
   ]
 }
